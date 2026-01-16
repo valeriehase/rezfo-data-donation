@@ -43,13 +43,13 @@ This workshop introduces data donation studies. After a general introduction to 
 
 **Session 2️⃣: Data Donation Studies (Participant Perspective)**
 
--   [Slides - HTML](docs/02-study-participant-perspective.html)
+-   [Slides - HTML](02-study-participant-perspective.html)
 -   Slides - PDF
 -   📢 [Example data for Tasks 2 & 3](data/example_data.zip)
 
 **Session 3️⃣: Data Donation Studies (Researcher Perspective)**
 
--   [Slides - HTML](docs/03-study-researcher-perspective.html)
+-   [Slides - HTML](03-study-researcher-perspective.html)
 -   Slides - PDF
 -   📢 [Data for Task 5](data/sample_youtube.csv)
 
