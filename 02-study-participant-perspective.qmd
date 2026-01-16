@@ -1,0 +1,320 @@
+---
+format:
+  revealjs:
+    footer: "Data Donation Studies - DGPuK RezFo - Valerie Hase"
+    center-title-slide: false
+    theme: ["theme/q-theme.scss"]
+    code-fold: show
+    code-copy: true
+    self-contained: false
+    number-sections: false
+    smaller: true
+    highlight-style: atom-one
+    preview-links: auto
+    progress: true
+execute:
+  echo: true
+bibliography: "references/references.bib"
+csl: references/apa.csl
+---
+
+<h1>Digital Traces via Data Donations</h1>
+
+<h3>Workshop DGPuK RezFo 2026</h3>
+
+<hr>
+
+Session 2️⃣: Data Donation Studies (Participant Perspective)
+
+<hr>
+
+👉 Part of the SPP DFG Project [Integrating Data Donations in Survey Infrastructure](https://data-donation-science.de)
+
+![](images/klagenfurt.jpg){.corner-logo}
+
+## Agenda
+
+1.  **What are data donation studies?**
+
+2.  **Participant perspective**, including
+
+    📢 **Task 1**: Inspect your DDPs
+
+    📢 **Task 2**: Try donating your data
+    
+    📢 **Task 3**: Extract personality profiles from data
+
+![Image by Hope House Press via Unsplash](images/agenda.jpg){fig-align="left" width="10%"}
+
+## 1) What are data donation studies?
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+## Changes in legal contexts
+
+::: incremental
+-   EU secures right to own data in Art. 15 of the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/))
+    -   “*The data subject shall have \[...\] access to the personal data*” (§ Art. 15, 1)
+    -   “*The controller shall provide a copy of the personal data*” (§ Art. 15, 3)
+-   According to § Art. 20, users must receive their data "*in a structured, commonly used and machine-readable format*" (§ Art. 20, 1)
+:::
+
+## Changes in legal contexts
+
+-   EU secures right to own data in Art. 15 of the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/))
+    -   “*The data subject shall have \[...\] access to the personal data*” (§ Art. 15, 1)
+    -   “*The controller shall provide a copy of the personal data*” (§ Art. 15, 3)
+-   According to § Art. 20, users must receive their data "*in a structured, commonly used and machine-readable format*" (§ Art. 20, 1)
+
+👉 **Solution:** Platforms offer data download packages (DDPs), which users can request and download to inspect data.
+
+👉 **Consequence**: Researchers uses DDPs as part of user-centric data donation studies.
+
+## 
+
+::: {style="font-size: 200%;text-align:center;"}
+Please raise your hand ✋ if you...
+
+*1) knew about this right?*
+
+*2) ever tried to request your data?*
+
+🤔
+:::
+
+In Switzerland, only 8% of members of an online access panel did [@pfiffner_leveraging_2023, p. 17]
+
+## What are data donation studies?
+
+**Definition** 💡: Data donation studies are a **user-centric**, **privacy-by-design** method for collecting digital traces:
+
+::: incremental
+-   Users have the right to request, access, and download data that platforms collect about them.
+-   They can make their *data packages (DDPs)* available to science via *data donation tools (DDTs)*, often in the context of surveys.
+-   Researchers use CSS methods to filter, anonymize, and aggregate this data **locally** on participants' devices.
+-   Participants can inspect/delete their data before any data is transferred.
+:::
+
+## Which types of data do DDPs contain?
+
+For platforms like Facebook, Instagram, or YouTube, for example... [@hase_etal2024]
+
+::: incremental
+-   *User profiles* (e.g., privacy settings)
+-   *Activities* (e.g., friends, likes, searches, exposure, analog movements)
+-   *Content and context* (e.g., ads watched, algorithmically inferred interests)
+:::
+
+## How is data from DDPs different?
+
+Compared to **APIs** [@stollfus_computational_2023; @ohme_digital_2024]...
+
+-   Control & informed consent of users
+-   Longitudinal data without “rate limits”
+-   Partly more knowledge about missing data (e.g., unit drop-out)
+-   Partly additional measurements (e.g., exposure data; non-public data)
+
+## How is data from DDPs different?
+
+Compared to **tracking** [@stollfus_computational_2023; @ohme_digital_2024]...
+
+-   Retrospective & often more longitudinal
+-   Partly additional measurements (e.g., algorithmic inferences)
+-   Anchored in current provisions in law [for issues with tracking, see @edelson_facebook_2021]
+
+👉 but similarly burdensome for participants!
+
+## Summary: What are data donation studies? 📚 {.normal-cite-slide}
+
+-   **Summary**: User-centric method for collecting digital traces: Users download their data packages (DDPs) from platforms and make them available to science via data donation tools (DDTs).
+
+-   **Further literature**:
+
+    -   @boeschoten_privacy-preserving_2022
+    -   @carriere_etal2024
+    
+    
+## How is the speed of the workshop?
+
+<iframe
+  src="https://wall.sli.do/event/vpPFndCF9oeuEh8LVwZV9v"
+  width="100%"
+  style="height: 600px;"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
+
+## 2) Participant perspective
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+::: notes
+-   As data donation is really centered on the participant, we best start to understand data donation by taking their perspective.
+-   You already did one part of this process before coming here: Requesting and downloading your data from YouTube, Instagram, or LinkedIn
+:::
+
+## Data donation studies - participant perspective
+
+![Figure. Data donation study - participant perspective](images/ablauf-3.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step I: Data request
+
+![Figure. Data donation study - participant perspective](images/ablauf-1.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step I: Data request
+
+![Figure. Data donation study - participant perspective](images/ablauf-1a.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step I: Data request
+
+![Figure. Data donation study - participant perspective](images/ablauf-1b.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## 
+
+::: {style="font-size: 200%;text-align:center;"}
+*How easy (or hard) did you find it to request your data? Did you encounter any obstacles?* 🤔
+:::
+
+## Step I: Data request
+
+Example problems from Hase et al. (2025)
+
+## Step I: Data request
+
+Different degrees in standardization for data requests [@hase_etal2024]...
+
+-   Verification procedure
+-   Specification of data (metrics, observation period)
+-   Notification on provision of DDP
+-   Duration of DDP availability
+
+## Step II: Download
+
+![Figure. Data donation study - participant perspective](images/ablauf-2.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step II: Download
+
+![Figure. Data donation study - participant perspective](images/extraction.png){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## 
+
+::: {style="font-size: 150%;text-align:center;"}
+**📢 Task 1: Inspect your DDPs.**
+
+1.  *Which variables can you identify?*
+2.  *How could you use these for research in your field?*
+3.  *What are questions you may have about these measurements?*
+
+Feel free to work in groups of 2-3 people (around 15 minutes)
+:::
+
+## Step II: Download
+
+Different degrees in standardization for DDP content [@hase_etal2024]...
+
+**Documentation & changes over time**
+
+-   What does each file "mean"?
+-   How was this data measured?
+
+**Completeness & scope**
+
+-   Is data missing and, if so, why?
+-   Why are some data points limited to specific time frames?
+-   How do we handle multi-lingual DDPs?
+
+## Step II: Download
+
+![Valkenburg et al. (2025). It is time to ensure research access to platform data](images/valkenburg_problems_dd.png){fig-alt="Problems in Data Donation studies" fig-align="left" width="300"}
+
+## Step III: Data donation
+
+![Figure. Data donation study - participant perspective](images/ablauf-3.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step III: Data donation
+
+![Figure. Data donation study - participant perspective](images/ablauf-3a.jpg){fig-alt="process of data donation study" fig-align="left"}
+
+## Step III: Data donation
+
+![Figure. Data donation study - participant perspective](images/ablauf-3b.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step III: Data donation
+
+![Figure. Data donation study - participant perspective](images/ablauf-3c.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## 
+
+::: {style="font-size: 150%;text-align:center;"}
+**📢 Task 2: Try donating your data.**
+
+*Upload and inspect your data. If you could not download the data, use the ZIP folder "example data" (see landing page) for this session.*
+
+1)  Are there any surprising/missing values?
+2)  Did you encounter any difficulties in deleting/sharing your data?
+:::
+
+Use this link: [https://next.eyra.co/a/nWPJC4?p=999](https://next.eyra.co/a/nWPJC4?p=999){target="_blank" rel="noopener noreferrer"} - replace number after *p=* with random number. Feel free to work in groups of 2-3 people.
+
+## 
+
+::: {style="font-size: 150%;text-align:center;"}
+**📢 Task 3: Extract personality profiles from data.**
+
+*Inspect the ZIP folder "example" data for this session (manually or upload it to the data donation study - data you see may then differ). Imagine you are a commercial company.* 
+
+*Based on the trace data, how would you profile this person in terms of....*
+
+1)  sociodemographic characteristics
+2)  their interests
+3)  ads you may target them with
+:::
+
+Use this link: [https://next.eyra.co/a/nWPJC4?p=999](https://next.eyra.co/a/nWPJC4?p=999){target="_blank" rel="noopener noreferrer"} - replace number after *p=* with random number. Feel free to work in groups of 2-3 people.
+
+## Bias in Data Donation Studies
+
+Similar to tracking studies, data donation characterized by [@keusch_etal2024; @hase_etal2024; @hase_haim2024a]:
+
+-   Errors in representation (e.g., coverage error, non-response error)
+-   Measurement errors (e.g., missing data, specification error)
+
+👉 Not necessarily less biased than survey data - but subject to different bias?
+
+👉 We will talk about this in Session 4️⃣.
+
+## Informed Consent in Data Donation Studies
+
+Similar to tracking [@kreuter_etal2020a]: Is consent really "informed"? [@groot_kormelink_meaningful_2025; @hase_haim2024a]
+
+![](images/meme_consent.jpg){fig-alt="Meme on why informed consent is hard and participants often confused" fig-align="left"}
+
+## Informed Consent in Data Donation Studies
+
+Similar to tracking [@kreuter_etal2020a]: Is consent really "informed"? [@groot_kormelink_meaningful_2025; @hase_haim2024a]
+
+-   in walk-through interviews, participants "*fundamentally misunderstood [this] key principle*" (p. 8)
+-   Anecdotal evidence: sending data via email, sending different data, sending someone else's data, etc.
+-   Almost no one deletes data (except for searches!)
+
+## Summary: Participant perspective 📚 {.normal-cite-slide}
+
+-   **Summary**: Key steps from the participant perspective ...
+
+    1.  Data request
+    2.  Data download
+    3.  Data donation
+
+-   **Further literature**:
+
+    -   @boeschoten_privacy-preserving_2022
+    -   @carriere_etal2024
+
+## 
+
+::: {style="font-size: 400%;text-align:center;"}
+**Questions?** 🤔
+:::
+
+## References

@@ -1,0 +1,387 @@
+---
+format:
+  revealjs:
+    footer: "Data Donation Studies - DGPuK RezFo - Valerie Hase"
+    center-title-slide: false
+    theme: ["theme/q-theme.scss"]
+    code-fold: show
+    code-copy: true
+    self-contained: true
+    number-sections: false
+    smaller: true
+    highlight-style: atom-one
+    preview-links: auto
+    progress: true
+execute:
+  echo: true
+bibliography: "references/references.bib"
+csl: references/apa.csl
+---
+
+<h1>Digital Traces via Data Donations</h1>
+
+<h3>Workshop DGPuK RezFo 2026</h3>
+
+<hr>
+
+Session 1️⃣ : Welcome & Intro to Digital Traces
+
+<hr>
+
+👉 Part of the SPP DFG Project [Integrating Data Donations in Survey Infrastructure](https://data-donation-science.de)
+
+![](images/klagenfurt.jpg){.corner-logo}
+
+## Agenda
+
+**1. Intro to the workshop**
+
+**2. What is digital trace data?**
+
+**3. How can we collect digital traces?**
+
+![Image by Hope House Press via Unsplash](images/agenda.jpg){fig-align="left" width="10%"}
+
+## 
+
+::: {style="font-size: 200%;text-align:center;"}
+**Before we start: Have you requested and downloaded your Google Data?** 🤔
+:::
+
+Otherwise, use this link to request your data now: [https://next.eyra.co/a/nWPJC4?p=999](https://next.eyra.co/a/nWPJC4?p=999){target="_blank" rel="noopener noreferrer"} - replace number after *p=* with random number
+
+![](images/next_0.png){fig-alt="image of the starting page of a data donation study" fig-align="left" width="300"}
+
+## 1. Intro
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+## Who are you?
+
+Please raise your hand 🤚 if you ....
+
+::: incremental
+-   are familiar with the term digital trace data
+-   have worked with APIs
+-   have worked with data donation
+-   have worked with automated content analysis
+-   regularly use programming languages (e.g., R, Python)
+:::
+
+## Who are you?
+
+In 2-3 sentences, tell us...
+
+::: incremental
+-   your main research interests
+-   the methods you mainly use
+-   related to which theoretical questions/data you are interested in data donation as a method
+:::
+
+## About me: Valerie Hase
+
+::::: columns
+::: {.column width="30%"}
+![](images/valerie-hase.jpeg){width="200"}
+:::
+
+::: {.column width="70%"}
+**Professor of Digital Media and Communication**
+
+-   [<u>Digital Media and Methods Lab</u>](https://www.media-methods-lab.de/){target="_blank" rel="noopener noreferrer"}
+-   University of Klagenfurt
+
+**Research interests:**
+
+-   CSS (automated content analysis, digital traces, bias, data access)
+-   Digital journalism, crisis communication
+:::
+:::::
+
+👉 More info: [github.com/valeriehase](https://github.com/valeriehase){target="_blank" rel="noopener noreferrer"} & [valerie-hase.com](https://valerie-hase.com/){target="_blank" rel="noopener noreferrer"}
+
+## A big thank you 🙌 to the organizers
+
+Shoutout to the organizers behind this workshop
+
+-   Alicia Ernst & Ulrike Schwertberger (<i>RezFo Young Scholar Network</i>)
+-   Christina Seeger, Marlis Stubenvoll, Caroline Roth-Ebner, Selina Noetzel & Melanie Hirsch (<i>local organizing team</i>)
+
+## What is the goal of this workshop?
+
+::: incremental
+-   ✅ Understanding digital data traces as a *type* of data
+-   ✅ Understanding data donation as a *method* of data access
+-   ✅ Working through key steps of data donation methods (user & researcher view)
+-   ✅ Discussing when (not) to use data donation studies
+-   ❌ Detailed implementation (e.g., server set-up, coding data extraction scripts)
+:::
+
+## How do we communicate in this workshop?
+
+![](images/meme_question.jpg){fig-alt="question" fig-align="left"}
+
+## How do we communicate in this workshop?
+
+My goal is that you...
+
+-   just <b>ask right away</b> if there is something you did not understand
+-   keep in mind that there <b>are not stupid questions</b>
+-   feel free to ask questions specific to your potential data donation projects!
+
+## Timetable
+
+|  |  |
+|-----------------------|-------------------------------------------------|
+| ⏰ 11:15--11:45am | Session 1️⃣: Welcome & Intro to Digital Traces |
+| ⏰ 11:45am--1pm | Session 2️⃣: Data Donation Studies (Participant Perspective) |
+| 🥖1--2pm | Lunch break |
+| ⏰ 2--4pm | Session 3️⃣: Data Donation Studies (Researcher Perspective) |
+| ⏰ 4--5pm | Session 4️⃣: Bias in Digital Trace Data & Outro |
+
+## 2. What is digital trace data?
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+## 
+
+::: {style="font-size: 200%;text-align:center;"}
+*Which examples for digital trace data do you know?* 🤔
+:::
+
+## Example study I
+
+![Ernst, Dietrich et al. (2025)](images/example_ernst.png){fig-alt="Preprint by Alicia Ernst, Felix Dietrich et al. (2025)" width="300"}
+
+## Example study II
+
+![Schmid et al. (2024)](images/example_schmid.png){fig-alt="Study by Ursula Schmid et al. (2024)" width="300"}
+
+## Example study III
+
+![Peters (2024)](images/example_peters.png){fig-alt="Study by Peters (2024)" width="300"}
+
+## What is digital trace data?
+
+**Definition** 💡: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   e.g., tweets, likes, shares on social media
+-   e.g., geo data (locations, movements)
+-   e.g., digital payments
+-   e.g., Spotify playlists
+
+## What is digital trace data?
+
+**Definition** 💡: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   e.g., tweets, **likes**, shares on social media
+
+**Example: Instagram Like**
+
+![](images/instagram-1.JPG){fig-alt="Screenshot of Instagram Like" fig-align="left" width="200"}
+
+## What is digital trace data?
+
+**Definition** 💡: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   e.g., tweets, **likes**, shares on social media
+
+**Example: Instagram Like**
+
+![](images/instagram-2.JPG){fig-alt="Data behind Instagram Like" fig-align="left" width="200"}
+
+## Which systems/sensors collect traces?
+
+-   Apps & social media platforms (e.g., Instagram)
+-   Payment systems (e.g., Paypal)
+-   Wearable devices (e.g., smart watch, fitbit)
+-   Governmental databases (e.g., health data)
+
+## Which types of data does this include?
+
+Depending on the data collection method... [@stollfus_computational_2023; @ohme_digital_2024]:
+
+-   often fine-grained (e.g., time-stamped)
+-   often longitudinal (e.g., over years, within-individual change)
+-   often less reactive (e.g., less concerns about social desirability)
+
+![](images/example_traces.png){fig-alt="Exemplary trace data from YouTube searches" fig-align="left" width="200"}
+
+## Which types of data does this include?
+
+![Source: Keusch & Kreuter, 2023, p. 102](images/digital-trace-examples.png){fig-alt="examples of digital trace data" fig-align="left"}
+
+## What (latent) phenomena are we trying to explain?
+
+::::: columns
+::: column
+-   **How (often) people use the internet/apps** [@parry_etal2021] ...
+
+    ::: {style="font-size:0.8em;"}
+    -   to explain well-being [@ohme_digital_2024] & sleep quality [@siebers_adolescents_2024]
+    -   to explain voting behavior [@bach_etal2021]
+    :::
+
+-   **What content people are exposed to** ...
+
+    ::: {style="font-size:0.8em;"}
+    -   fake news [@lyons_partisanship_2024]
+    -   health-related info [@bachl_search_2024]
+    :::
+:::
+
+::: column
+-   **Where and how people move** to explain ...
+
+    ::: {style="font-size:0.8em;"}
+    -   mobility during pandemics [@li_etal2021]
+    -   how deprived neighbourhoods can benefit from green spaces [@pawlowski_will_2019]
+    :::
+
+-   **Career trajectories / financial behavior** ...
+
+    ::: {style="font-size:0.8em;"}
+    -   how relationships affect womens' earnings [@mohring_couples_2022]
+    -   whether overqualification can lead to wage loss [@kracke_wage_2018]
+    :::
+:::
+:::::
+
+## Why are digital traces becoming more popular?
+
+-   Problems with self-reported data (e.g., via survey)
+
+“How many minutes a day do you use the internet to consume news?”
+
+![Source: Image by Scott Graham via Unsplash](images/survey.jpg){fig-alt="image of human filling out survey" fig-align="left" width="300"}
+
+::: incremental
+-   „internet"?
+-   „news"?
+-   „how many minutes"?
+:::
+
+## Why are digital traces becoming more popular?
+
+-   **Problems with self-reported data** (e.g., via survey)
+    -   Inaccurate measurements (recall issues)
+    -   Bias [@scharkow_accuracy_2016; @parry_etal2021]: individual characteristics may predict under- or overreporting
+    -   Declining response rates in surveys [@luiten_survey_2020]
+
+## Why are digital traces becoming more popular?
+
+-   **Problems with self-reported data** (e.g., via survey)
+-   **Availability of digital traces**
+    -   cheap (e.g., via APIs)
+    -   large data sets ("big data")
+    -   more accurate ("objective data")
+
+## Why are digital traces becoming more popular?
+
+-   Problems with self-reported data (e.g., via survey)
+-   Availability of digital traces
+
+![](images/meme_data.jpg){fig-alt="Meme about the promises of big data" fig-align="left"}
+
+## Why are digital traces becoming more popular?
+
+-   Problems with self-reported data (e.g., via survey)
+-   Availability of digital traces
+
+**Be careful**: These "advantages" of traces are often claimed, but **empirically disputed**.
+
+Digital traces are **neither** necessarily less biased, nor cheaper, or larger (we will discuss this in Session 4️⃣).
+
+## (Dis-)advantages of digital trace data
+
+-   ✅ More fine-grained, often longitudinal measures due to timestamps
+-   ✅ Partly measurement of new variables (e.g., algorithmic inference)
+-   ❌ Still bias due to errors in representation and measurement
+-   ❌ Implementation can be expensive and cumbersome
+
+::: {style="font-size: 200%"}
+👉 More data does not mean better data!
+:::
+
+## Summary: What is digital trace data? 📚 {.normal-cite-slide}
+
+-   **Definition**: *The recording and storing of activities on digital platforms to draw conclusions about digital and analog phenomena*
+
+-   **Further literature**
+
+    -   @engel_digital_2021
+
+    -   @stollfus_computational_2023
+
+    -   @ohme_digital_2024
+
+## 3. How can we collect digital traces?
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+## 
+
+::: {style="font-size: 200%;text-align:center;"}
+Which methods do you know/have you used for collecting digital trace data*?* 🤔
+:::
+
+## Platform- and user-centric methods
+
+![](images/meme_promise.jpg){fig-alt="the promise of data donation using a toy story meme" fig-align="left"}
+
+## Platform- and user-centric methods
+
+::: incremental
+-   **Platform-centric** (based on platform cooperation)
+    -   API [@engel_brief_2021]
+    -   Cooperation with platforms [@wagner_etal2023]
+-   **User-centric** (based on user cooperation and informed consent) or "follow the user" approaches [@caliandro_2024]
+    -   Data donation [@carriere_etal2024]
+    -   Linkage to existing databases [@sloan_etal2020]
+    -   Active sharing via sensors [@struminskaya_etal2021]
+    -   Passive sharing via sensors/tracking [@christner_etal2022]
+:::
+
+## Platform- and user-centric methods
+
+![](images/method-comparison.png){fig-alt="comparing different methods across legal and measurement considerations" fig-align="left" width="300"}
+
+## Platform- and user-centric methods
+
+Placeholder first data Elli
+
+## Platform- and user-centric methods
+
+<div>
+
+-   **Restrictions of platform-centric methods**
+    -   Discontinuation of APIs [@freelon_2018]
+    -   Concerns about bias [@schatto-eckrodt_2022; @ulloa_etal2025]
+-   **User-centric methods become more popular, given ...**
+    -   Legal frameworks enabling such studies (GDPR, DSA)
+    -   Presumably (!) more researcher control
+    -   Ethical considerations (informed consent)
+
+</div>
+
+## Summary: How can we collect digital traces? 📚 {.normal-cite-slide}
+
+-   **Summary**
+
+    -   Platform-centric methods (e.g., APIs) and user-centric methods (e.g., data donation)
+
+    -   Key differences: control over samples & measurements, legal & ethical contexts
+
+-   **Further literature**
+
+    -   @stollfus_computational_2023
+
+    -   @ohme_digital_2024
+
+## 
+
+::: {style="font-size: 400%;text-align:center;"}
+**Questions?** 🤔
+:::
+
+## References

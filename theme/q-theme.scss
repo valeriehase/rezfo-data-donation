@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Economica&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,700);
+
+// fonts
+$font-family-sans-serif: "Economica", sans-serif !default;
+$font-family-serif: "Economica", serif !default;
+$font-family-monospace: "Fira Mono", monospace !default;
+
+// colors
+$body-bg: #fff !default;
+$body-color: #000 !default;
+$link-color: #539FC6 !default;
+$code-block-bg: #f2f2f2;
+$code-block-font-size: 0.4em;
+
+/*-- scss:rules --*/
+
+h1 {
+  font-family: "Economica";
+}
+
+/* Left-centered logo on FIRST slide */
+.reveal .slides section:first-of-type img.corner-logo {
+  position: absolute;
+
+  top: 50%;            /* vertical center */
+  left: 5px;          /* distance from the left edge */
+  transform: translateY(-50%);  /* adjust for true vertical centering */
+
+  width: 200px !important;       /* force size */
+  max-width: 200px !important;
+  height: auto !important;
+
+  z-index: 20;
+}
+
+/* Make all citations smaller */
+.citation {
+  font-size: 0.6em;
+}
+
+.normal-cite-slide .citation {
+  font-size: 1em;
+}

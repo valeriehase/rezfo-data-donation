@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "Data Donation Tutorial DGPuK RezFo"
+  navbar:
+    search: false
+    pinned: true
+    tools:
+      - icon: github
+        href: https://valeriehase.github.io/rezfo-data-donation/
+      - icon: website
+        href: https://data-donation-science.de
+
+format:
+  html:
+    theme: lux
+    toc: true

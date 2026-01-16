@@ -1,0 +1,546 @@
+---
+format:
+  revealjs:
+    footer: "Data Donation Studies - DGPuK RezFo - Valerie Hase"
+    center-title-slide: false
+    theme: ["theme/q-theme.scss"]
+    code-fold: show
+    code-copy: true
+    self-contained: false
+    number-sections: false
+    smaller: true
+    highlight-style: atom-one
+    preview-links: auto
+    progress: true
+execute:
+  echo: true
+bibliography: "references/references.bib"
+csl: references/apa.csl
+---
+
+<h1>Digital Traces via Data Donations</h1>
+
+<h3>Workshop DGPuK RezFo 2026</h3>
+
+<hr>
+
+Session 3️⃣: Data Donation Studies (Researcher Perspective)
+
+<hr>
+
+👉 Part of the SPP DFG Project [Integrating Data Donations in Survey Infrastructure](https://data-donation-science.de)
+
+![](images/klagenfurt.jpg){.corner-logo}
+
+## 
+
+::: {style="font-size: 150%;text-align:center;"}
+*Please come up with 2-3 research questions/hypotheses you may want to answer using data donation* 🤔
+:::
+
+:::: {.padlet-embed style="border:none;
+            box-sizing:border-box;
+            overflow:hidden;
+            position:relative;
+            width:100%;
+            background:transparent"}
+<p style="padding:0;margin:0">
+
+```{=html}
+<iframe src="https://padlet.com/embed/sqima0msnheyeol8" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;
+             height:600px;
+             display:block;
+             padding:0;
+             margin:0">
+```
+
+</iframe>
+
+</p>
+
+::: {style="display:flex;
+              align-items:center;
+              justify-content:end;
+              margin:0;
+              padding:2px 4px 2px 0;
+              background:transparent"}
+:::
+::::
+
+## 
+
+::: {style="font-size: 150%;text-align:center;"}
+*To answer these, which methodological decisions would you have to take?* 🤔
+:::
+
+:::: {.padlet-embed style="border:none;
+            box-sizing:border-box;
+            overflow:hidden;
+            position:relative;
+            width:100%;
+            background:transparent"}
+<p style="padding:0;margin:0">
+
+```{=html}
+<iframe src="https://padlet.com/embed/sqima0msnheyeol8" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;
+             height:600px;
+             display:block;
+             padding:0;
+             margin:0">
+```
+
+</iframe>
+
+</p>
+
+::: {style="display:flex;
+              align-items:center;
+              justify-content:end;
+              margin:0;
+              padding:2px 4px 2px 0;
+              background:transparent"}
+:::
+::::
+
+## Data Donation: Methodological Decisions
+
+![](images/ablauf-4.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Data Donation: Methodological Decisions
+
+![](images/meme_big_data.jpg){fig-alt="process of data donation study" fig-align="left"}
+
+## For a summary: shoutout to this primer
+
+![](images/best-practices.png){fig-alt="paper on best practices in a donation study" fig-align="left"}
+
+[@carriere_etal2024]
+
+## Agenda
+
+1.  **Research design & tool set-up**
+
+2.  **Data cleaning & augmentation**, including
+
+    📢 **Task 5**: Classify search terms
+
+3.  **Modelling**
+
+![Image by Hope House Press via Unsplash](images/agenda.jpg){fig-align="left" width="10%"}
+
+## 1) Research design & tool set-up
+
+![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
+
+## Step I: Research design & tool set-up
+
+![](images/ablauf-4a.jpg){fig-alt="process of data donation study" fig-align="left"}
+
+## Step I: Research design & tool set-up
+
+![](images/ablauf-4b.jpg){fig-alt="process of data donation study" fig-align="left"}
+
+## Step I.I Which questions do I want to answer?
+
+![](images/meme_method.jpg){fig-alt="process of data donation study" fig-align="left"}\
+
+## Study Elli
+
+## Step I.I Which questions do I want to answer?
+
+![](images/example_empirical.png){fig-alt="Example studies using data donation" fig-align="left"}
+
+## Step I.I Which questions do I want to answer?
+
+Empirical studies on data donation focus on ...
+
+-   exposure/pathways to news or political content [@loecherbach_what_2024; @xuanjun_gong_media_2023; @wojcieszak_political_2023]
+-   social interaction/relationship development [@virtanen_managing_2021; @brinberg_new_2021; @corten_assessing_2025]
+
+## Step I.I Which questions do I want to answer?
+
+Research designs include ...
+
+::: incremental
+-   use of **observational data to describe/explain** (e.g., how platforms shape exposure diversity, often via sequential modeling) [@loecherbach_what_2024]
+-   **combination with experimental designs** (e.g., interventions, sock puppet training) [@yu_nudging_2024]
+-   **triangulation with qualitative methods** (e.g., walk-through-interviews) [@pierce-grove_integrating_2024]
+:::
+
+## Step I.I Which questions do I want to answer?
+
+Research designs include ...
+
+-   use of **observational data to describe/explain** (e.g., how platforms shape exposure diversity, often via sequential modeling) [@loecherbach_what_2024]
+-   **combination with experimental designs** (e.g., interventions, sock puppet training) [@yu_nudging_2024]
+-   **triangulation with qualitative methods** (e.g., walk-through-interviews) [@pierce-grove_integrating_2024]
+
+⚠️ Causal inference remains a key problem!
+
+⚠️ Match between theoretical concepts and measurements remains a key problem!
+
+## Step I: Research design & tool set-up
+
+![](images/ablauf-4c.jpg){fig-alt="process of data donation study" fig-align="left"}
+
+## Step I.II: How do I operationalize key variables?
+
+Key questions:
+
+-   Which data donation tool do I use? 🖥️
+-   Which variables do I extract? 🔎
+-   How do I anonymize data? 🙈
+
+## Step I.II: Which data donation tool do I use? 🖥️
+
+Key questions:
+
+-   **Which data donation tool do I use?** 🖥️
+-   Which variables do I extract? 🔎
+-   How do I anonymize data? 🙈
+
+## Step I.II: Which data donation tool do I use? 🖥️
+
+-   Participants "upload" data (nothing is send anywhere)
+-   Local extraction, anonymization, & aggregation
+-   Users can delete data
+-   Informed consent, only then: send to researcher server
+
+## Step I.II: Which data donation tool do I use? 🖥️
+
+Choose a tool, e.g., ...
+
+-   **Next** [@boeschoten_etal2023] (different measurements, different platforms)
+-   **Data** Donation Module [@pfiffner_data_2022] (different measurements, different platforms)
+-   **Dona** [@hakobyan_development_2025] (messaging data, different platforms)
+-   **WhatsR** [@kohne_etal2024] (messaging data, WhatsApp)
+
+## Step I.II: Which data donation tool do I use? 🖥️
+
+Choose a tool, e.g., ...
+
+-   **Next** [@boeschoten_etal2023] (different measurements, different platforms)
+
+![](images/next_1.png){fig-alt="process of data donation study" fig-align="left"}
+
+## Step I.II: Which data donation tool do I use? 🖥️
+
+Relevant questions include...
+
+-   Can I/do I want to change extraction scripts myself? (example: TikTok)
+-   Can I/do I want to provide my scripts to other researchers?
+-   Can I/do I have to host data on my own server?
+
+## Step I.II: Which data donation tool do I use? 🖥️
+
+Key questions:
+
+-   **Which data donation tool do I use?** 🖥️
+-   Which variables do I extract? 🔎
+-   How do I anonymize data? 🙈
+
+## Step I.II: Which variables do I extract? 🔎
+
+Key questions:
+
+-   Which data donation tool do I use?🖥️
+-   **Which variables do I extract?** 🔎
+-   How do I anonymize data? 🙈
+
+## Step I.II: Which variables do I extract? 🔎
+
+![](images/extraction.png){fig-alt="Files in data donation packages" fig-align="left"}
+
+## Step I.II: Which variables do I extract? 🔎
+
+You can find the following Python code for data extraction [here](%5Bhttps://github.com/valeriehase/youtube-dd-adapted/tree/project_workshop_youtube/packages/python/port/behaviors){target="_blank" rel="noopener noreferrer"}:
+
+![](images/filtering.jpg){fig-alt="Python code for extracting files" fig-align="left"}
+
+## Step I.II: Which variables do I extract? 🔎
+
+![](images/filtering-a.jpg){fig-alt="Python code for extracting files" fig-align="left"}
+
+## Step I.II: Which variables do I extract? 🔎
+
+Key decisions include:
+
+-   Which files "count" towards measuring my latent concepts?
+-   Which meta data do I want to extract? (e.g., time stamps, video IDs)
+-   Do I include multilingual data?
+
+## Step I.II: How do I anonymize data? 🙈
+
+Key questions:
+
+-   Which data donation tool do I use?🖥️
+-   Which variables do I extract? 🔎
+-   **How do I anonymize data?** 🙈
+
+## 
+
+::: {style="font-size: 150%;text-align:center;"}
+*Please look at your data and discuss: What needs to be anonymized? How could we do this?* 🤔
+:::
+
+:::: {.padlet-embed style="border:none;
+            box-sizing:border-box;
+            overflow:hidden;
+            position:relative;
+            width:100%;
+            background:transparent"}
+<p style="padding:0;margin:0">
+
+```{=html}
+<iframe src="https://padlet.com/embed/vdjmsrayh8j2urlc" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;
+             height:600px;
+             display:block;
+             padding:0;
+             margin:0">
+```
+
+</iframe>
+
+</p>
+
+::: {style="display:flex;
+              align-items:center;
+              justify-content:end;
+              margin:0;
+              padding:2px 4px 2px 0;
+              background:transparent"}
+:::
+::::
+
+## Step I.II: How do I anonymize data? 🙈
+
+Good anonymization may require...
+
+::: incremental
+-   Whitelists/dictionaries of social media accounts
+    -   Database of public speakers, Hans-Bredow-Institute ([Link](https://github.com/Leibniz-HBI/DBoeS-data))
+    -   Database of news media and their social media handles, University of Vienna ([Link](http://journals.sagepub.com/doi/10.1177/02673231221112006))
+-   Local, in-tool classification (e.g., topic modeling)
+-   Manual annotation (e.g., type of contact)
+-   Aggregation
+:::
+
+## Step I.II: How do I anonymize data? 🙈
+
+![Figure. Exampe whitelist](images/anonymization.jpg){fig-alt="Example of anonymized data" fig-align="left"}
+
+## Step I.II: How do I anonymize data? 🙈
+
+![Figure. Example anonymized data ](images/anonymization-a.jpg){fig-alt="Example whitelists for news outlets" fig-align="left"}
+
+## ⚠️ Anonymized does not mean anonymous!
+
+![](images/anonymous_study.jpg){fig-alt="Study on how anonymized data can be de-anonymized" fig-align="left"}
+
+## 
+
+::: {style="font-size: 200%;text-align:center;"}
+**Let's have a look at the technical set-up 💻:**
+
+-   the platform: <https://github.com/eyra/mono>
+-   the data donation tool: <https://github.com/eyra/feldspar>
+:::
+
+## 
+
+![Figure. Next setup](images/next_1.png){fig-alt="Next workflow screenshots" fig-align="left" width="200"}
+
+## 
+
+![Figure. Next setup](images/next_2.png){fig-alt="Next workflow screenshots" fig-align="left" width="200"}
+
+## 
+
+![Figure. Next setup](images/next_3.png){fig-alt="Next workflow screenshots" fig-align="left" width="200"}
+
+## 
+
+![Figure. Next setup](images/next_4.png){fig-alt="Next workflow screenshots" fig-align="left" width="200"}
+
+## 
+
+![Figure. Next setup](images/next_6.png){fig-alt="Next workflow screenshots" fig-align="left" width="200"}
+
+## 
+
+![Figure. Next setup](images/next_7.png){fig-alt="Next workflow screenshots" fig-align="left" width="200"}
+
+## 
+
+![Figure. Next setup](images/next_8.png){fig-alt="Next workflow screenshots" fig-align="left" width="200"}
+
+## Step I: Research design & tool set-up
+
+![](images/ablauf-4d.jpg){fig-alt="process of data donation study" fig-align="left"}
+
+## 
+
+::: {style="font-size: 150%;text-align:left;"}
+*For this research question, what are (dis-)advantages of each sample?* 🤔
+:::
+
+(think about characteristics of the sample, response rates, representativeness, etc.)
+
+:::: {.padlet-embed style="border:none;
+            box-sizing:border-box;
+            overflow:hidden;
+            position:relative;
+            width:100%;
+            background:transparent"}
+<p style="padding:0;margin:0">
+
+```{=html}
+<iframe src="https://padlet.com/embed/6apijmobonkna2pf" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;
+             height:550px;
+             display:block;
+             padding:0;
+             margin:0">
+```
+
+</iframe>
+
+</p>
+
+::: {style="display:flex;
+              align-items:center;
+              justify-content:end;
+              margin:0;
+              padding:2px 4px 2px 0;
+              background:transparent"}
+:::
+::::
+
+## Step I.III: How do I integrate the tool in surveys & recruit participants?
+
+::: incremental
+-   Use a single platform for survey & data donation
+-   Think about characteristics of your population, e.g., 
+    -   Who is using the platform where data should be donated from?
+    -   Who is willing and able to share their data?
+    -   Can you incentive participants in a meaningful way?
+-   ⚠️ Often, the main goal will not (or cannot) be to reach a "representative" sample.
+
+:::
+    
+
+## Step I.III: How do I integrate the tool in surveys & recruit participants?
+
+::: incremental
+-   Low response rates [e.g., @hase_haim2024a; @keusch_etal2024]
+
+    -   Behavioral intentions as "willingness to donate" high (79-52% of survey respondents)
+    -   Actual behavior as "participation in data donation" low (38-1% of survey respondents)
+    -   Well known intention-behavior gap [@kmetty_etal2025]
+
+:::
+
+![](images/donation_rate.jpg){
+  fig-alt="Nonparticipation rates in data donation"
+  fig-align="center"
+  style="margin-bottom: 1rem;"
+}
+
+## How is the speed of the workshop?
+
+<iframe src="https://wall.sli.do/event/3ksZbYz2S4sXQh8ttg9MRE" width="100%" style="height: 600px;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+## Step I: Research design & tool set-up
+
+![Figure. Data donation study - researcher perspective](images/ablauf-4a.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step II: Data cleaning & augmentation
+
+![Figure. Data donation study - researcher perspective](images/ablauf-4e.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step II.I: How do I clean and extend data?
+
+This is how your data may look like:
+
+![Figure. Donated data - example](images/cleaning_1.jpg){fig-alt="Example of donated data" fig-align="left" width="300"}
+
+## Step II.I: How do I clean and extend data?
+
+This is how your data may look like:
+
+![Figure. Donated data - example](images/cleaning_2.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step II.I: How do I clean and extend data?
+Often, we need to further preprocess collected data through...
+
+-   Manual annotation (by participants or researchers)
+-   APIs/scraping to extend collected data
+-   Text-as-data methods
+
+## 
+
+::: {style="font-size: 120%;text-align:center;"}
+**📢 Task 5: Classify search terms**
+
+*Download the "Data for Task 5" from the website. It contains YouTube searches from a German social media sample. Either discuss this conceptually or try this in R/Python.....*
+
+(1) How you would clean the data?
+
+(2) How you would identify health-related searches using manual or automated coding?
+:::
+
+![Figure. Donated data - example](images/sample-yt.jpg){fig-alt="Example of YouTube searches" fig-align="left"}
+## Step II: Data cleaning & augmentation
+
+![Figure. Data donation study - researcher perspective](images/ablauf-4e.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step II: Data cleaning & augmentation
+
+![Figure. Data donation study - researcher perspective](images/ablauf-4f.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+
+## Step II.II: How do I check for bias?
+
+-   Errors in representation and measurements
+    -   based on systematic drop-out [@pak_correcting_2022]
+    -   based on systematic misclassification of digital traces [@teblunthuis_etal2024]
+
+👉 You know the drill: We will talk about this in session 4️⃣.
+
+## Step III: Modelling
+
+![Figure. Data donation study - researcher perspective](images/ablauf-4g.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
+
+## Step III.I: How do I analyze results?
+
+For inferential modeling, consider [@clemm_von_hohenberg_analysis_2024]....
+
+::: incremental
+-   Creating indices from different metrics (e.g., liking, sharing, or commenting) and testing their consistency
+-   Accounting for missing data (units, measures)
+-   Skewed data (e.g., zero-inflation) and non-linear relationships
+-   Hierarchical structure (nested in participants, metrics, platforms) and within/between variance
+-   Advanced longitudinal approaches (e.g., with respect to sequences, feedback loops and causal inference)
+:::
+
+## Summary: Researcher perspective 📚 {.normal-cite-slide}
+
+-   **Summary**: Key steps include...
+
+    1.  Research design & tool set-up
+    2.  Data cleaning & augmentation
+    3.  Modelling
+
+-   **Further literature**:
+
+    -  @boeschoten_privacy-preserving_2022
+    -  @carriere_etal2024
+
+## 
+
+::: {style="font-size: 400%;text-align:center;"}
+**Questions?** 🤔
+:::
+
+## References
