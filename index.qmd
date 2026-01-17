@@ -44,13 +44,13 @@ This workshop introduces data donation studies. After a general introduction to 
 **Session 2️⃣: Data Donation Studies (Participant Perspective)**
 
 -   [Slides - HTML](02-study-participant-perspective.html)
--   Slides - PDF
+-   [Slides - PDF](pdf/02-study-participant-perspective.pdf)
 -   📢 [Example data for Tasks 2 & 3](data/example_data.zip)
 
 **Session 3️⃣: Data Donation Studies (Researcher Perspective)**
 
 -   [Slides - HTML](03-study-researcher-perspective.html)
--   Slides - PDF
+-   [Slides - PDF](pdf/03-study-researcher-perspective.pdf)
 -   📢 [Data for Task 5](data/sample_youtube.csv)
 -   📢 [Data for Task 6](data/Data for Task 6.json)
 -   📢 [Code for Task 6](data/Task 6.R)
@@ -58,7 +58,7 @@ This workshop introduces data donation studies. After a general introduction to 
 **Session 4️⃣: Bias in Digital Trace Data & Outro**
 
 -   [Slides - HTML](04-bias-outro.html)
--   Slides - PDF
+-   [Slides - PDF](pdf/04-bias-outro.pdf)
 
 ## Additional tutorials
 
