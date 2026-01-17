@@ -32,7 +32,7 @@
     "href": "index.html#workshop-materials",
     "title": "Accessing Digital Traces via Data Donations",
     "section": "Workshop materials",
-    "text": "Workshop materials\nSession 1️⃣: Welcome & Intro to Digital Traces\n\nSlides - HTML\nSlides - PDF\n\nSession 2️⃣: Data Donation Studies (Participant Perspective)\n\nSlides - HTML\nSlides - PDF\n📢 Example data for Tasks 2 & 3\n\nSession 3️⃣: Data Donation Studies (Researcher Perspective)\n\nSlides - HTML\nSlides - PDF\n📢 Data for Task 5\n\nSession 4️⃣: Bias in Digital Trace Data & Outro\n\nSlides - HTML\nSlides - PDF"
+    "text": "Workshop materials\nSession 1️⃣: Welcome & Intro to Digital Traces\n\nSlides - HTML\nSlides - PDF\n\nSession 2️⃣: Data Donation Studies (Participant Perspective)\n\nSlides - HTML\nSlides - PDF\n📢 Example data for Tasks 2 & 3\n\nSession 3️⃣: Data Donation Studies (Researcher Perspective)\n\nSlides - HTML\nSlides - PDF\n📢 Data for Task 5\n📢 Data for Task 6\n📢 Code for Task 6\n\nSession 4️⃣: Bias in Digital Trace Data & Outro\n\nSlides - HTML\nSlides - PDF"
   },
   {
     "objectID": "index.html#additional-tutorials",
@@ -298,7 +298,7 @@
     "href": "01-intro.html#platform--and-user-centric-methods-3",
     "title": "Data Donation Tutorial DGPuK RezFo",
     "section": "Platform- and user-centric methods",
-    "text": "Platform- and user-centric methods\nPlaceholder first data Elli"
+    "text": "Platform- and user-centric methods\n\n\nRestrictions of platform-centric methods\n\nDiscontinuation of APIs (Freelon, 2018)\nConcerns about bias (Schatto-Eckrodt, 2022; Ulloa et al., 2025)\n\nUser-centric methods become more popular, given …\n\nLegal frameworks enabling such studies (GDPR, DSA)\nPresumably (!) more researcher control\nEthical considerations (informed consent)"
   },
   {
     "objectID": "01-intro.html#platform--and-user-centric-methods-4",
@@ -620,7 +620,7 @@
     "href": "03-study-researcher-perspective.html#agenda",
     "title": "Data Donation Tutorial DGPuK RezFo",
     "section": "Agenda",
-    "text": "Agenda\n\nResearch design & tool set-up\nData cleaning & augmentation, including\n📢 Task 5: Classify search terms\nModelling\n\n\nImage by Hope House Press via Unsplash"
+    "text": "Agenda\n\nResearch design & tool set-up\nData cleaning & augmentation, including\n📢 Task 5: Classify search terms\nModelling\n📢 Task 6: Example Analysis of YouTube Watch history\n\n\nImage by Hope House Press via Unsplash"
   },
   {
     "objectID": "03-study-researcher-perspective.html#research-design-tool-set-up",
@@ -949,7 +949,7 @@
     "href": "03-study-researcher-perspective.html#section-12",
     "title": "Data Donation Tutorial DGPuK RezFo",
     "section": "",
-    "text": "📢 Task 5: Classify search terms\nDownload the “Data for Task 5” from the website. It contains YouTube searches from a German social media sample. Either discuss this conceptually or try this in R/Python…..\n\nHow you would clean the data?\nHow you would identify health-related searches using manual or automated coding?\n\n\n ## Step II: Data cleaning & augmentation\n\n\n\nFigure. Data donation study - researcher perspective"
+    "text": "📢 Task 5: Classify search terms\nDownload the “Data for Task 5” from the website. It contains YouTube searches from a German social media sample. Either discuss this conceptually or try this in R/Python…..\n\nHow you would clean the data?\nHow you would identify health-related searches using manual or automated coding?\n\n\n\nFigure. Donated data - example"
   },
   {
     "objectID": "03-study-researcher-perspective.html#step-ii-data-cleaning-augmentation-1",
@@ -991,7 +991,7 @@
     "href": "03-study-researcher-perspective.html#section-13",
     "title": "Data Donation Tutorial DGPuK RezFo",
     "section": "",
-    "text": "Questions? 🤔"
+    "text": "📢 Task 6: Example Analysis of YouTube Watch history\nDownload the “Data for Task 6” from the website or use your own YouTube watch history. Also, load the respective R-code. Run the code (you just have to change the location and name of your data):\n\n\nOn which day do you mostly watch YouTube?\nAt what time do you mostly watch YouTube?\n\n\nThe idea for this code and analysis was provided by Michael Scharkow, University of Mainz."
   },
   {
     "objectID": "03-study-researcher-perspective.html#references",
@@ -999,5 +999,383 @@
     "title": "Data Donation Tutorial DGPuK RezFo",
     "section": "References",
     "text": "References\n\n\n\nData Donation Studies - DGPuK RezFo - Valerie Hase\n\n\n\n\nBoeschoten, L., Mendrik, A., Van Der Veen, E., Vloothuis, J., Hu, H., Voorvaart, R., & Oberski, D. L. (2022). Privacy-preserving local analysis of digital trace data: A proof-of-concept. Patterns, 3(3), 100444. https://doi.org/10.1016/j.patter.2022.100444\n\n\nBoeschoten, L., Schipper, N. C. de, Mendrik, A. M., Veen, E. van der, Struminskaya, B., Janssen, H., & Araujo, T. (2023). Port: A software tool for digital data donation. Journal of Open Source Software, 8(90), 5596.\n\n\nBrinberg, M., & Ram, N. (2021). Do New Romantic Couples Use More Similar Language Over Time? Evidence from Intensive Longitudinal Text Messages. Journal of Communication, 71(3), 454–477. https://doi.org/10.1093/joc/jqab012\n\n\nCarrière, T. C., Boeschoten, L., Struminskaya, B., Janssen, H. L., De Schipper, N. C., & Araujo, T. (2024). Best practices for studies using digital data donation. Quality & Quantity. https://doi.org/10.1007/s11135-024-01983-x\n\n\nClemm Von Hohenberg, B., Stier, S., Cardenal, A. S., Guess, A. M., Menchen-Trevino, E., & Wojcieszak, M. (2024). Analysis of Web Browsing Data: A Guide. Social Science Computer Review, 42(6), 1479–1504. https://doi.org/10.1177/08944393241227868\n\n\nCorten, R., Boeschoten, L., Carrière, T., Jongerius, S., Struminskaya, B., Mulder, J., Zahedi, P., Nadi Najafabadi, S., & Mendrik, A. (2025). Assessing mobile instant messenger networks with donated data. Social Network Analysis and Mining. https://doi.org/10.1007/s13278-025-01550-8\n\n\nHakobyan, O., Hillmann, P.-J., Martin, F., Böttinger, E., & Drimalla, H. (2025). Development and evaluation of Dona, a privacy-preserving donation platform for messaging data from WhatsApp, Facebook, and Instagram. Behavior Research Methods, 57(3), 94. https://doi.org/10.3758/s13428-024-02593-z\n\n\nHase, V., & Haim, M. (2024). Can We Get Rid of Bias? Mitigating Systematic Error in Data Donation Studies through Survey Design Strategies. Computational Communication Research, 6(2), 1. https://doi.org/10.5117/CCR2024.2.2.HASE\n\n\nKeusch, F., Pankowska, P. K., Cernat, A., & Bach, R. L. (2024). Do You Have Two Minutes to Talk about Your Data? Willingness to Participate and Nonparticipation Bias in Facebook Data Donation. Field Methods, 36(4), 279–293. https://doi.org/10.1177/1525822X231225907\n\n\nKmetty, Z., & Stefkovics, Á. (2025). Validating a willingness to share measure of a vignette experiment using real-world behavioral data. Scientific Reports, 15(1), 9319. https://doi.org/10.1038/s41598-025-92349-2\n\n\nKohne, J., & Montag, C. (2024). ChatDashboard: A Framework to collect, link, and process donated WhatsApp Chat Log Data. Behavior Research Methods, 56(4), 3658–3684.\n\n\nLoecherbach, F., Moeller, J., Trilling, D., & Van Atteveldt, W. (2024). What is news? Mapping the diversity of news experiences in digital trace data. Journalism, 14648849241303115. https://doi.org/10.1177/14648849241303115\n\n\nPak, C., Cotter, K., & Thorson, K. (2022). Correcting Sample Selection Bias of Historical Digital Trace Data: Inverse Probability Weighting (IPW) and Type II Tobit Model. Communication Methods and Measures, 16(2), 134–155. https://doi.org/10.1080/19312458.2022.2037537\n\n\nPfiffner, N., Witlox, P., & Friemel, T. N. (2022). Data Donation Module. https://github.com/uzh/ddm\n\n\nPierce-Grove, R., & Watkins, E. A. (2024). Integrating trace data into interviews: Better interviews, better data. Convergence: The International Journal of Research into New Media Technologies, 30(6), 2059–2074. https://doi.org/10.1177/13548565241300897\n\n\nTeBlunthuis, N., Hase, V., & Chan, C.-H. (2024). Misclassification in Automated Content Analysis Causes Bias in Regression. Can We Fix It? Yes We Can! Communication Methods and Measures, 18(3), 278–299. https://doi.org/10.1080/19312458.2023.2293713\n\n\nVirtanen, M. T., Vepsäläinen, H., & Koivisto, A. (2021). Managing several simultaneous lines of talk in Finnish multi-party mobile messaging. Discourse, Context & Media, 39, 100460. https://doi.org/10.1016/j.dcm.2020.100460\n\n\nWojcieszak, M., Chang, R.-C. (Anna)., & Menchen-Trevino, E. (2023). Political content and news are polarized but other content is not in YouTube watch histories. Journal of Quantitative Description: Digital Media, 3. https://doi.org/10.51685/jqd.2023.018\n\n\nXuanjun Gong, & Richard Huskey. (2023). Media selection is highly predictable, in principle. Computational Communication Research, 5(1), 1. https://doi.org/10.5117/CCR2023.1.15.GONG\n\n\nYu, X., Haroon, M., Menchen-Trevino, E., & Wojcieszak, M. (2024). Nudging recommendation algorithms increases news consumption and diversity on YouTube. PNAS Nexus, 3(12), pgae518. https://doi.org/10.1093/pnasnexus/pgae518"
+  },
+  {
+    "objectID": "04-bias-outro.html#agenda",
+    "href": "04-bias-outro.html#agenda",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Agenda",
+    "text": "Agenda\n\nBias in Data Donation Studies\nWhat’s Next for Data Donation?\nSummary & Evaluation\n\n\nImage by Hope House Press via Unsplash"
+  },
+  {
+    "objectID": "04-bias-outro.html#bias-in-data-donation-studies",
+    "href": "04-bias-outro.html#bias-in-data-donation-studies",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "1) Bias in Data Donation Studies",
+    "text": "1) Bias in Data Donation Studies\n\nSource: Image by Markus Winkler via Unsplash"
+  },
+  {
+    "objectID": "04-bias-outro.html#what-is-bias",
+    "href": "04-bias-outro.html#what-is-bias",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "What is bias?",
+    "text": "What is bias?\nDefinition💡: the systematic difference between a true value of a quantity for a population and how a study observe its (Hase et al., in press)\n\n\nNon-systematic errors: random deviations influence variance of estimates\nSystematic errors (or: bias): non-random deviations that depend on omitted variables\n👉 Bias can influence descriptive results but also attenuate/inflate inferential conclusions"
+  },
+  {
+    "objectID": "04-bias-outro.html#what-is-bias-1",
+    "href": "04-bias-outro.html#what-is-bias-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "What is bias?",
+    "text": "What is bias?\nIn CSS, the bias-variance tradeoff plays an important role: Often, we can either improve reduce variance or bias for models.\n\n\nBias–variance tradeoff\nSource: Scott Fortmann-Roe (2012)"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation",
+    "href": "04-bias-outro.html#errors-in-representation",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation",
+    "text": "Errors in representation\nFor example …\n\n\nCoverage error: Who is (not) represented in the sampling frame? (e.g., social media users vs. YouTube users)\nSampling error: Who is (not) represented in the sample? (e.g., non-probability samples)\nNon-response error: Who does (not) want to participate in the data donation?\nCompliance error: Who is (not) able to participate in the data donation?"
+  },
+  {
+    "objectID": "04-bias-outro.html#section",
+    "href": "04-bias-outro.html#section",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Please think about bias in and through CSS 🤔"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation-1",
+    "href": "04-bias-outro.html#errors-in-representation-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation",
+    "text": "Errors in representation\nExample study by Hase & Haim (2024):\n\nSource: Figure from Hase & Haim (2024)"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-1",
+    "href": "04-bias-outro.html#section-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Which aspects of the research design or participant characteristics may correlate with participants dropping out of data donation studies? 🤔"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation-quantification",
+    "href": "04-bias-outro.html#errors-in-representation-quantification",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation: Quantification",
+    "text": "Errors in representation: Quantification\nMethods for bias detection often draw from validation strategies, though this may not be enough (Hase et al., 2025)\n\nResponse rates across study stages\nPara data as quality indicators (e.g., speeding)\nNon-response bias (e.g. characteristics of survey participants vs. donation participants)\n\n👉 “a more pragmatic vision of bias detection: one that abandons the pursuit of perfect benchmarks in favor of comparative assessments of biases across CSS and non-CSS methods.” (Hase et al., 2025, p. 5)"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation-solutions",
+    "href": "04-bias-outro.html#errors-in-representation-solutions",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation: Solutions",
+    "text": "Errors in representation: Solutions\n\nA posteriori strategies:\n\nInfrastructure: Integration in probability-based panels\nLearning from survey design strategies (e.g., incentives, study framing) (Hase & Haim, 2024)\nDDT design (e.g. UX-perspective)\n\nPost hoc strategies:\n\nStatistical modeling like weighting (Pak et al., 2022)"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation-solutions-1",
+    "href": "04-bias-outro.html#errors-in-representation-solutions-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation: Solutions",
+    "text": "Errors in representation: Solutions\nFor now: limited studies, limited success\n\nSource: Figure from Hase & Haim (2024)"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-2",
+    "href": "04-bias-outro.html#section-2",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Any ideas (from your discipline): How can we quantify/address errors in representation? 🤔"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-measurement",
+    "href": "04-bias-outro.html#errors-in-measurement",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in measurement",
+    "text": "Errors in measurement\nFor example …\n\n\nConstruct (in-)validity: How do DDP variables relate to latent measurements? (e.g., likes vs. political participation)\nMeasurement error: How correct is data in our DDP? (e.g., missing data)\nExtraction error: Did we extract all relevant files and variables?"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-measurements",
+    "href": "04-bias-outro.html#errors-in-measurements",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in measurements",
+    "text": "Errors in measurements\nExample study by Valkenburg et al. (2024):\n\nSource: Figure from Valkenburg et al. (2024)"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-3",
+    "href": "04-bias-outro.html#section-3",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "What do you think: How could errors in measurements sneak into data donation studies? 🤔"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-measurement-quantification",
+    "href": "04-bias-outro.html#errors-in-measurement-quantification",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in measurement: Quantification",
+    "text": "Errors in measurement: Quantification\n\nPara data (e.g., failed uploads)\nCorrelation between self-reported and observed behavior\nMulti Trait Multi Method (MTMM) approaches (Cernat et al., 2024)\nEstimation of misclassification effects (TeBlunthuis et al., 2024)"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation-solutions-2",
+    "href": "04-bias-outro.html#errors-in-representation-solutions-2",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation: Solutions",
+    "text": "Errors in representation: Solutions\n\nA posteriori strategies:\n\nTalk to everyone (e.g., IRB, Data Strward)\nRepeated testing & DDP download\nSimulate downstream errors (Bosch et al., 2024)\n\nPost hoc strategies:\n\nMultiverse approaches\nStatistical error correction (TeBlunthuis et al., 2024)\nError documentation (Gebru et al., 2021)"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation-solutions-3",
+    "href": "04-bias-outro.html#errors-in-representation-solutions-3",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation: Solutions",
+    "text": "Errors in representation: Solutions\nIn a recent policy paper, around 20 scholars from different CSS labs argued (Hase et al., 2024):\n\nSource: Figure from Hase et al. 2024"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-4",
+    "href": "04-bias-outro.html#section-4",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Any ideas (from your discipline): How can we quantify/address errors in measurements? 🤔"
+  },
+  {
+    "objectID": "04-bias-outro.html#whats-next-for-data-donation-studies",
+    "href": "04-bias-outro.html#whats-next-for-data-donation-studies",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "2) What’s next for data donation studies?",
+    "text": "2) What’s next for data donation studies?\n\nSource: Image by Markus Winkler via Unsplash"
+  },
+  {
+    "objectID": "04-bias-outro.html#step-i.ii-how-do-i-operationalize-key-variables",
+    "href": "04-bias-outro.html#step-i.ii-how-do-i-operationalize-key-variables",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Step I.II: How do I operationalize key variables?",
+    "text": "Step I.II: How do I operationalize key variables?\nKey issues 🚨 (Hase et al., 2024)\n\nMissing documentation by platforms (e.g., file structure)\nSudden changes in DDPs\nDifferences across languages & devices\nInsufficient in-tool classification (e.g., LLM integration)"
+  },
+  {
+    "objectID": "04-bias-outro.html#step-i.ii-how-do-i-operationalize-key-variables-1",
+    "href": "04-bias-outro.html#step-i.ii-how-do-i-operationalize-key-variables-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Step I.II: How do I operationalize key variables?",
+    "text": "Step I.II: How do I operationalize key variables?\nKey issues 🚨 (Hase et al., 2024)\n\nMissing documentation by platforms (e.g., file structure)\nSudden changes in DDPs\nDifferences across languages & devices\nInsufficient in-tool classification (e.g., LLM integration)"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-i-advancing-the-method",
+    "href": "04-bias-outro.html#the-road-ahead-i-advancing-the-method",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead I: Advancing the method",
+    "text": "The road ahead I: Advancing the method\n\nMultimodal & cross-platform data 📸 (Wedel et al., 2024)\nIn-tool, local classification (e.g., local SML/LLMs?)\nWorkflow/UX-perspective\n\n\nSource: Image by DariuszSankowski via Pixabay\n\nAs some of you might have guessed, we can not only classify existing data but also aument our data with additional data, e.g., if you have URLs from YouTube videos.\nThere is much to be leared from other fields of scientific research, namely UX-design and (as so often these days) computer science"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-ii-data-as-a-political-tool",
+    "href": "04-bias-outro.html#the-road-ahead-ii-data-as-a-political-tool",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead II: Data as a political tool",
+    "text": "The road ahead II: Data as a political tool\n\nPlatforms do (willingly?) not provide data according to the GDPR/DSA (Hase et al., 2024)\nThe EU has started to sanction platforms like X/TikTok\nDSA may become the subject of larger geo-political debates with the USA (Seiling et al., 2025)\n\n\nSource: Image by WilliamCho via Pixabay\n\nThat’s the good thing: It’s law; but laws can be changed.\nNice to know here: Google and Facebook provided options for users to get information on their stored data already before GDPR, so it might also become a case of “good practice” in the future -&gt; But never trust companies…"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-iii-can-we-improve-apply-the-method",
+    "href": "04-bias-outro.html#the-road-ahead-iii-can-we-improve-apply-the-method",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead III: Can we improve & apply the method?",
+    "text": "The road ahead III: Can we improve & apply the method?\n\nCan the method actually be applied for empirical research? (few examples, like Thorson et al., 2021; Wojcieszak et al., 2024)\nRequires interdisciplinary perspectives (e.g., addressing bias, integration in probability-based panels)\n\n\nSource: Image by Vladislav Babienko via Pixabay\n\nBut that’s also where you come in. You come from several different backgrounds and bring your own research interests; and many questions today are connected to what people do online - data donation might be your tool to investigate this."
+  },
+  {
+    "objectID": "04-bias-outro.html#section-6",
+    "href": "04-bias-outro.html#section-6",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Questions? 🤔"
+  },
+  {
+    "objectID": "04-bias-outro.html#outro-frieder",
+    "href": "04-bias-outro.html#outro-frieder",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "3) Outro (Frieder)",
+    "text": "3) Outro (Frieder)\n\nSource: Image by Markus Winkler via Unsplash"
+  },
+  {
+    "objectID": "04-bias-outro.html#we-want-your-feedback",
+    "href": "04-bias-outro.html#we-want-your-feedback",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "We want your feedback! 🙃",
+    "text": "We want your feedback! 🙃\n👉 Please fill out this 3-minute feedback form: https://forms.gle/KLMweywhW7odGyfk8\n\nQR code for survey\n\nWe want this to improve the workshop constantly…"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-7",
+    "href": "04-bias-outro.html#section-7",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Thanks for joining the workshop 🙌"
+  },
+  {
+    "objectID": "04-bias-outro.html#quellen",
+    "href": "04-bias-outro.html#quellen",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Quellen",
+    "text": "Quellen\n\n\n\nData Donation Studies - DGPuK RezFo - Valerie Hase\n\n\n\n\nBosch, O. J., Sturgis, P., Kuha, J., & Revilla, M. (2024). Uncovering Digital Trace Data Biases: Tracking Undercoverage in Web Tracking Data. Communication Methods and Measures, 1–21. https://doi.org/10.1080/19312458.2024.2393165\n\n\nCernat, A., Keusch, F., Bach, R. L., & Pankowska, P. K. (2024). Estimating Measurement Quality in Digital Trace Data and Surveys Using the MultiTrait MultiMethod Model. Social Science Computer Review, 08944393241254464. https://doi.org/10.1177/08944393241254464\n\n\nGebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Iii, H. D., & Crawford, K. (2021). Datasheets for datasets. Communications of the ACM, 64(12), 86–92. https://doi.org/10.1145/3458723\n\n\nHase, V., Ausloos, J., Boeschoten, L., Pfiffner, N., Janssen, H., Araujo, T., Carrière, T., De Vreese, C., Haßler, J., Loecherbach, F., Kmetty, Z., Möller, J., Ohme, J., Schmidbauer, E., Struminskaya, B., Trilling, D., Welbers, K., & Haim, M. (2024). Fulfilling Data Access Obligations: How Could (and Should) Platforms Facilitate Data Donation Studies? Internet Policy Review, 13(3). https://doi.org/10.14763/2024.3.1793\n\n\nHase, V., Bachl, M., & TeBlunthuis, N. (2025). Critical, but constructive: Defining, detecting, and addressing bias in Computational Social Science. Communication Methods and Measures, 19(4), 281–293. https://doi.org/10.1080/19312458.2025.2575468\n\n\nHase, V., Bachl, M., TeBlunthuis, N., & Widder, D. G. (in press). Bias in Computational Social Science. In M. Haim & E. Domahidi (Eds.), ICA Handbook of Computational Communication Research.\n\n\nHase, V., & Haim, M. (2024). Can We Get Rid of Bias? Mitigating Systematic Error in Data Donation Studies through Survey Design Strategies. Computational Communication Research, 6(2), 1. https://doi.org/10.5117/CCR2024.2.2.HASE\n\n\nKathirgamalingam, A., Kulichkina, A., Bernhard-Harrer, J., & Hase, V. (2025). Reflecting on Social Bias: Challenges and Opportunities for Computational Social Science. SocArXiv. https://doi.org/10.31235/osf.io/xr45y_v1\n\n\nKathirgamalingam, A., Lind, F., & Boomgaarden, H. G. (2025). Measuring racism and related concepts using computational text-as-data approaches: A systematic literature review. Annals of the International Communication Association, 49(3), 241–256. https://doi.org/g9353n\n\n\nLambrecht, A., & Tucker, C. (2019). Algorithmic Bias? An Empirical Study of Apparent Gender-Based Discrimination in the Display of STEM Career Ads. Management Science, 65(7), 2966–2981. https://doi.org/10.1287/mnsc.2018.3093\n\n\nLangener, A. M., Siepe, B. S., Elsherif, M., Niemeijer, K., Andresen, P. K., Akre, S., Bringmann, L. F., Cohen, Z. D., Choukas, N. R., Drexl, K., Fassi, L., Green, J., Hoffmann, T., Jagesar, R. R., Kas, M. J. H., Kurten, S., Schoedel, R., Stulp, G., Turner, G., & Jacobson, N. C. (2024). A template and tutorial for preregistering studies using passive smartphone measures. Behavior Research Methods, 56(8), 8289–8307. https://doi.org/10.3758/s13428-024-02474-5\n\n\nPak, C., Cotter, K., & Thorson, K. (2022). Correcting Sample Selection Bias of Historical Digital Trace Data: Inverse Probability Weighting (IPW) and Type II Tobit Model. Communication Methods and Measures, 16(2), 134–155. https://doi.org/10.1080/19312458.2022.2037537\n\n\nSap, M., Card, D., Gabriel, S., Choi, Y., & Smith, N. A. (2019). The Risk of Racial Bias in Hate Speech Detection. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 1668–1678. https://doi.org/gf9wr8\n\n\nSeiling, L., Ohme, J., & De Vreese, C. (2025). Wird Europa den DSA in Verhandlungen mit Trump opfern? Tagesspiegel. https://background.tagesspiegel.de/digitalisierung-und-ki/briefing/wird-europa-den-dsa-in-verhandlungen-mit-trump-opfern\n\n\nSiemon, M. (2025). Beyond the binary? Automated gender classification of social media profiles. Communication Methods and Measures, 1–19. https://doi.org/g95x5s\n\n\nStoll, A., Yu, J., Andrich, A., & Domahidi, E. (2025). Classification bias of LLMs in detecting incivility towards female and male politicians in German social media discourse. Communication Methods and Measures, 1–19. https://doi.org/g94g68\n\n\nTeBlunthuis, N., Hase, V., & Chan, C.-H. (2024). Misclassification in Automated Content Analysis Causes Bias in Regression. Can We Fix It? Yes We Can! Communication Methods and Measures, 18(3), 278–299. https://doi.org/10.1080/19312458.2023.2293713\n\n\nThorson, K., Cotter, K., Medeiros, M., & Pak, C. (2021). Algorithmic inference, political interest, and exposure to news and politics on Facebook. Information, Communication & Society, 24(2), 183–200. https://doi.org/10.1080/1369118X.2019.1642934\n\n\nValkenburg, P. M., Van Der Wal, A., Siebers, T., Beyens, I., Boeschoten, L., & Araujo, T. (2024). It is time to ensure research access to platform data. Nature Human Behaviour, 9(1), 1–2. https://doi.org/10.1038/s41562-024-02066-5\n\n\nWedel, L., Ohme, J., & Araujo, T. (2024). Augmenting Data Download Packages – Integrating Data Donations, Video Metadata, and the Multimodal Nature of Audio-visual Content. Methods&#44; Data&#44; Analyses (Online First), 32 Pages. https://doi.org/10.12758/MDA.2024.08\n\n\nWojcieszak, M., Menchen-Trevino, E., Clemm Von Hohenberg, B., De Leeuw, S., Gonçalves, J., Davidson, S., & Gonçalves, A. (2024). Non-News Websites Expose People to More Political Content Than News Websites: Evidence from Browsing Data in Three Countries. Political Communication, 41(1), 129–151. https://doi.org/10.1080/10584609.2023.2238641\n\n\nXiong, Y., Wal, A. van der, & Beyens, I. (2025). Improving Participation in Data Donation Studies: A Systematic Review of Factors Driving Participation and Evidence-Informed Best Practices. Social Science Computer Review, 08944393251395958. https://doi.org/10.1177/08944393251395958"
+  },
+  {
+    "objectID": "04-bias-outro.html#what-is-bias-2",
+    "href": "04-bias-outro.html#what-is-bias-2",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "What is bias?",
+    "text": "What is bias?\nIn CSS, the bias-variance tradeoff plays an important role: Often, we can either improve reduce variance or bias for models.\n\nComplex models often make better predictions (less bias), but with less inferential precision (more variance)\nLess complex models are less likely to overfit on the training data (less variance) but may make less accurate predictions (more bias)"
+  },
+  {
+    "objectID": "04-bias-outro.html#what-is-bias-3",
+    "href": "04-bias-outro.html#what-is-bias-3",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "What is bias?",
+    "text": "What is bias?"
+  },
+  {
+    "objectID": "04-bias-outro.html#what-is-bias-4",
+    "href": "04-bias-outro.html#what-is-bias-4",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "What is bias?",
+    "text": "What is bias?\n\nErrors in representation: Who participates in data donation studies?\nErrors in measurement: Which latent concepts can we measure with data donation studies?\n\n\nSource: Image from Boeschoten et al., 2022, p. 396"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-5",
+    "href": "04-bias-outro.html#section-5",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Questions? 🤔"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-8",
+    "href": "04-bias-outro.html#section-8",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Thanks for joining the workshop 🙌"
+  },
+  {
+    "objectID": "04-bias-outro.html#what-is-bias-5",
+    "href": "04-bias-outro.html#what-is-bias-5",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "What is bias?",
+    "text": "What is bias?\n\nErrors in representation: Who participates in data donation studies?\nErrors in measurement: Which latent concepts can we measure with data donation studies?\n\n\nSource: Image from Boeschoten et al., 2022, p. 396"
+  },
+  {
+    "objectID": "04-bias-outro.html#bias-in-css",
+    "href": "04-bias-outro.html#bias-in-css",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Bias in CSS",
+    "text": "Bias in CSS\nBias is an underestimated problem in CSS (Hase et al., 2025; Kathirgamalingam, Kulichkina, et al., 2025)\n\n\nDistorts scientific findings and has real-world consequences, such as unfairness through socio-technical systems\nExamples: AI in health resource allocation, hiring, or content moderation may induce gender bias (Lambrecht & Tucker, 2019; Siemon, 2025; Stoll et al., 2025) and racism (Kathirgamalingam, Lind, et al., 2025; Sap et al., 2019).\n\n\n\n\n\n Source: The Guardian, 2024 \n\n\n Source: The Verge, 2024"
+  },
+  {
+    "objectID": "04-bias-outro.html#bias-in-css-1",
+    "href": "04-bias-outro.html#bias-in-css-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Bias in CSS",
+    "text": "Bias in CSS\nBias is an underestimated problem in CSS (Hase et al., 2025; Kathirgamalingam, Kulichkina, et al., 2025)\n\nDistorts scientific findings and has real-world consequences, such as unfairness through socio-technical systems\nWe lack clear definitions, methods for quantifying bias, and solutions for adressing it\n\n\nSpecial Issue in Communication Methods and Measures"
+  },
+  {
+    "objectID": "04-bias-outro.html#bias-in-data-donation-studies-1",
+    "href": "04-bias-outro.html#bias-in-data-donation-studies-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Bias in Data Donation Studies",
+    "text": "Bias in Data Donation Studies\n\nErrors in representation: Who participates in data donation studies?\nErrors in measurement: Which latent concepts can we measure with data donation studies?\n\n\nSource: Image from Boeschoten et al., 2022, p. 396"
+  },
+  {
+    "objectID": "04-bias-outro.html#errors-in-representation-2",
+    "href": "04-bias-outro.html#errors-in-representation-2",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Errors in representation",
+    "text": "Errors in representation\nLiterature review by Xiong et al. (2025) and own experiences\nResearch design\n\nSensitivity of the requested data\nAutonomy and control over the process\nBurden/Complexity of the study\n\nParticipant characteristics\n\nPrivacy concerns\nDigital savviness/skills\nMixed findings on sociodemographics\nMixed findings on prosocial motivation"
+  },
+  {
+    "objectID": "04-bias-outro.html#section-9",
+    "href": "04-bias-outro.html#section-9",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Thanks for joining the workshop 🙌"
+  },
+  {
+    "objectID": "04-bias-outro.html#a-final-remark-on-data-donations-for-research",
+    "href": "04-bias-outro.html#a-final-remark-on-data-donations-for-research",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "A final remark on data donations for research",
+    "text": "A final remark on data donations for research\nDespite my lengthy rant about bias, this is not a statement against data donations.\nJust be sure to:\n\nCarefully consider whether data donations make sense for your theoretical puzzle\nThis relates to populations you can(not) study and latent phenomena you can(not) operationalize\nOften, the goal may not be highly representative panels - but targeting specific populations"
+  },
+  {
+    "objectID": "04-bias-outro.html#open-science",
+    "href": "04-bias-outro.html#open-science",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Open Science",
+    "text": "Open Science\nOpen science in CSS, including data donation, remains a challenge:\nPreregistration:\n\nMany researcher degree of freedom\nFew existing studies (e.g., for power calculations)\nAlmost no templates (Langener et al., 2024)\n\n👉 Our recent preregistration includes 70 pages 😭 and we fully simulated results to understand decision trees"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-i-open-science",
+    "href": "04-bias-outro.html#the-road-ahead-i-open-science",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead I: Open Science",
+    "text": "The road ahead I: Open Science\nPreregistration:\n\nMany researcher degree of freedom\nFew existing studies (e.g., for power calculations)\nAlmost no templates (Langener et al., 2024)\n\n👉 Our recent preregistration includes 70 pages 😭 and we fully simulated results to understand potential decision trees"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-i-open-science-1",
+    "href": "04-bias-outro.html#the-road-ahead-i-open-science-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead I: Open Science",
+    "text": "The road ahead I: Open Science\nPreregistration:\n\nFigure. Github issues - Testing the tool"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-ii-advancing-the-method",
+    "href": "04-bias-outro.html#the-road-ahead-ii-advancing-the-method",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead II: Advancing the method",
+    "text": "The road ahead II: Advancing the method\n\n\nMultimodal & cross-platform data 📸 (Wedel et al., 2025)\nLess standardized data (e.g., chatbot or message logs)\nIn-tool, local classification (e.g., local SML/LLMs?)\nWorkflow/UX-perspective\n\n\n\nSource: Image by DariuszSankowski via Pixabay"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-iii-data-in-a-world-of-political-turmoil",
+    "href": "04-bias-outro.html#the-road-ahead-iii-data-in-a-world-of-political-turmoil",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead III: Data in a world of political turmoil",
+    "text": "The road ahead III: Data in a world of political turmoil"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-iii-data-in-a-world-of-political-turmoil-1",
+    "href": "04-bias-outro.html#the-road-ahead-iii-data-in-a-world-of-political-turmoil-1",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead III: Data in a world of political turmoil",
+    "text": "The road ahead III: Data in a world of political turmoil\n\n\nPlatforms do (willingly?) not provide data according to the GDPR/DSA (Hase et al., 2024)\nThe EU may sanction platforms like X/TikTok, but exact sanctions remain unclear (see DSA Observatory)\nDSA subject to larger geo-political debates (Seiling et al., 2025), where some politicians falsely claim “censorship” as the reason behind regulations\nRecent GDPR Omnibus amendment would make data donation unfeasible (see our open letter to the European Commission)\n\n\n\nSource: Image by WilliamCho via Pixabay"
+  },
+  {
+    "objectID": "04-bias-outro.html#outro",
+    "href": "04-bias-outro.html#outro",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "3) Outro",
+    "text": "3) Outro\n\nSource: Image by Markus Winkler via Unsplash"
+  },
+  {
+    "objectID": "04-bias-outro.html#i-would-your-feedback",
+    "href": "04-bias-outro.html#i-would-your-feedback",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "I would ❤️ your feedback! 🙃",
+    "text": "I would ❤️ your feedback! 🙃\n👉 Please fill out this 3-minute feedback form: https://forms.gle/xaRy2Ldr9mU9jGc3A"
+  },
+  {
+    "objectID": "04-bias-outro.html#references",
+    "href": "04-bias-outro.html#references",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "References",
+    "text": "References\n\n\n\nData Donation Studies - DGPuK RezFo - Valerie Hase\n\n\n\n\nBosch, O. J., Sturgis, P., Kuha, J., & Revilla, M. (2024). Uncovering Digital Trace Data Biases: Tracking Undercoverage in Web Tracking Data. Communication Methods and Measures, 1–21. https://doi.org/10.1080/19312458.2024.2393165\n\n\nCernat, A., Keusch, F., Bach, R. L., & Pankowska, P. K. (2024). Estimating Measurement Quality in Digital Trace Data and Surveys Using the MultiTrait MultiMethod Model. Social Science Computer Review, 08944393241254464. https://doi.org/10.1177/08944393241254464\n\n\nGebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Iii, H. D., & Crawford, K. (2021). Datasheets for datasets. Communications of the ACM, 64(12), 86–92. https://doi.org/10.1145/3458723\n\n\nHase, V., Ausloos, J., Boeschoten, L., Pfiffner, N., Janssen, H., Araujo, T., Carrière, T., De Vreese, C., Haßler, J., Loecherbach, F., Kmetty, Z., Möller, J., Ohme, J., Schmidbauer, E., Struminskaya, B., Trilling, D., Welbers, K., & Haim, M. (2024). Fulfilling Data Access Obligations: How Could (and Should) Platforms Facilitate Data Donation Studies? Internet Policy Review, 13(3). https://doi.org/10.14763/2024.3.1793\n\n\nHase, V., Bachl, M., & TeBlunthuis, N. (2025). Critical, but constructive: Defining, detecting, and addressing bias in Computational Social Science. Communication Methods and Measures, 19(4), 281–293. https://doi.org/10.1080/19312458.2025.2575468\n\n\nHase, V., Bachl, M., TeBlunthuis, N., & Widder, D. G. (in press). Bias in Computational Social Science. In M. Haim & E. Domahidi (Eds.), ICA Handbook of Computational Communication Research.\n\n\nHase, V., & Haim, M. (2024). Can We Get Rid of Bias? Mitigating Systematic Error in Data Donation Studies through Survey Design Strategies. Computational Communication Research, 6(2), 1. https://doi.org/10.5117/CCR2024.2.2.HASE\n\n\nKathirgamalingam, A., Kulichkina, A., Bernhard-Harrer, J., & Hase, V. (2025). Reflecting on Social Bias: Challenges and Opportunities for Computational Social Science. SocArXiv. https://doi.org/10.31235/osf.io/xr45y_v1\n\n\nKathirgamalingam, A., Lind, F., & Boomgaarden, H. G. (2025). Measuring racism and related concepts using computational text-as-data approaches: A systematic literature review. Annals of the International Communication Association, 49(3), 241–256. https://doi.org/g9353n\n\n\nLambrecht, A., & Tucker, C. (2019). Algorithmic Bias? An Empirical Study of Apparent Gender-Based Discrimination in the Display of STEM Career Ads. Management Science, 65(7), 2966–2981. https://doi.org/10.1287/mnsc.2018.3093\n\n\nLangener, A. M., Siepe, B. S., Elsherif, M., Niemeijer, K., Andresen, P. K., Akre, S., Bringmann, L. F., Cohen, Z. D., Choukas, N. R., Drexl, K., Fassi, L., Green, J., Hoffmann, T., Jagesar, R. R., Kas, M. J. H., Kurten, S., Schoedel, R., Stulp, G., Turner, G., & Jacobson, N. C. (2024). A template and tutorial for preregistering studies using passive smartphone measures. Behavior Research Methods, 56(8), 8289–8307. https://doi.org/10.3758/s13428-024-02474-5\n\n\nMunzert, S., Ramirez-Ruiz, S., Watteler, O., Breuer, J., Batzdorfer, V., Eder, C., Wiltshire, D. A., Barberá, P., Guess, A. M., & Yang, J. (2023). Publishing combined web tracking and survey data. Center for Open Science. https://doi.org/10.31219/osf.io/y4v8z\n\n\nPak, C., Cotter, K., & Thorson, K. (2022). Correcting Sample Selection Bias of Historical Digital Trace Data: Inverse Probability Weighting (IPW) and Type II Tobit Model. Communication Methods and Measures, 16(2), 134–155. https://doi.org/10.1080/19312458.2022.2037537\n\n\nSap, M., Card, D., Gabriel, S., Choi, Y., & Smith, N. A. (2019). The Risk of Racial Bias in Hate Speech Detection. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 1668–1678. https://doi.org/gf9wr8\n\n\nSeiling, L., Ohme, J., & De Vreese, C. (2025). Wird Europa den DSA in Verhandlungen mit Trump opfern? Tagesspiegel. https://background.tagesspiegel.de/digitalisierung-und-ki/briefing/wird-europa-den-dsa-in-verhandlungen-mit-trump-opfern\n\n\nSiemon, M. (2025). Beyond the binary? Automated gender classification of social media profiles. Communication Methods and Measures, 1–19. https://doi.org/g95x5s\n\n\nStoll, A., Yu, J., Andrich, A., & Domahidi, E. (2025). Classification bias of LLMs in detecting incivility towards female and male politicians in German social media discourse. Communication Methods and Measures, 1–19. https://doi.org/g94g68\n\n\nTeBlunthuis, N., Hase, V., & Chan, C.-H. (2024). Misclassification in Automated Content Analysis Causes Bias in Regression. Can We Fix It? Yes We Can! Communication Methods and Measures, 18(3), 278–299. https://doi.org/10.1080/19312458.2023.2293713\n\n\nValkenburg, P. M., Van Der Wal, A., Siebers, T., Beyens, I., Boeschoten, L., & Araujo, T. (2024). It is time to ensure research access to platform data. Nature Human Behaviour, 9(1), 1–2. https://doi.org/10.1038/s41562-024-02066-5\n\n\nWedel, L., Ohme, J., & Araujo, T. (2025). Augmenting Data Download Packages – Integrating Data Donations, Video Metadata, and the Multimodal Nature of Audio-visual Content. Methods, Data, Analyses, 19(2), 11–45. https://doi.org/10.12758/mda.2024.08\n\n\nXiong, Y., Wal, A. van der, & Beyens, I. (2025). Improving Participation in Data Donation Studies: A Systematic Review of Factors Driving Participation and Evidence-Informed Best Practices. Social Science Computer Review, 08944393251395958. https://doi.org/10.1177/08944393251395958"
+  },
+  {
+    "objectID": "04-bias-outro.html#the-road-ahead-i-open-science-2",
+    "href": "04-bias-outro.html#the-road-ahead-i-open-science-2",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "The road ahead I: Open Science",
+    "text": "The road ahead I: Open Science\nOpen Data:\n\nSome useful primers (Munzert et al., 2023)\nStill, strategies (e.g., aggregation, synthetic data, differential privacy) remain debated\n\nOpen Materials:\n\nBig data of data donation: tools are almost exclusively open source!"
+  },
+  {
+    "objectID": "03-study-researcher-perspective.html#section-14",
+    "href": "03-study-researcher-perspective.html#section-14",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "",
+    "text": "Questions? 🤔"
+  },
+  {
+    "objectID": "03-study-researcher-perspective.html#step-ii-data-cleaning-augmentation-2",
+    "href": "03-study-researcher-perspective.html#step-ii-data-cleaning-augmentation-2",
+    "title": "Data Donation Tutorial DGPuK RezFo",
+    "section": "Step II: Data cleaning & augmentation",
+    "text": "Step II: Data cleaning & augmentation\n\nFigure. Data donation study - researcher perspective"
   }
 ]

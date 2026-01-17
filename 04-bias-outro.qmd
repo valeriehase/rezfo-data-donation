@@ -1,12 +1,12 @@
 ---
 format:
   revealjs:
-    footer: "Data Donation Studies - COMPTEXT - Frieder Rodewald, Valerie Hase"
+    footer: "Data Donation Studies - DGPuK RezFo - Valerie Hase"
     center-title-slide: false
     theme: ["theme/q-theme.scss"]
     code-fold: show
     code-copy: true
-    self-contained: true
+    self-contained: false
     number-sections: false
     smaller: true
     highlight-style: atom-one
@@ -18,19 +18,19 @@ bibliography: "references/references.bib"
 csl: references/apa.csl
 ---
 
-<h1>Follow the User?!</h1>
+<h1>Digital Traces via Data Donations</h1>
 
-<h3>Data Donation Studies for Collecting Digital Trace Data</h3>
+<h3>Workshop DGPuK RezFo 2026</h3>
 
 <hr>
 
-Session 4️⃣: Bias & Outro
-
-Frieder Rodewald (University of Mannheim) & Valerie Hase (LMU Munich)
+Session 4️⃣: Bias in Digital Trace Data & Outro
 
 <hr>
 
 👉 Part of the SPP DFG Project [Integrating Data Donations in Survey Infrastructure](https://data-donation-science.de)
+
+![](images/klagenfurt.jpg){.corner-logo}
 
 ## Agenda
 
@@ -38,24 +38,119 @@ Frieder Rodewald (University of Mannheim) & Valerie Hase (LMU Munich)
 
 2.  **What's Next for Data Donation?**
 
-3.  **Outro**
+3.  **Summary & Evaluation**
 
 ![Image by Hope House Press via Unsplash](images/agenda.jpg){fig-align="left" width="10%"}
 
-## 1) Bias in Data Donation Studies (Valerie)
+## 1) Bias in Data Donation Studies
 
 ![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
 
 ## What is bias?
 
-**Definition** 💡: *Deviations from the true value of a theoretical concept introduced by its measurement* [@peytchev_2013]
+**Definition**💡: *the systematic difference between a true value of a quantity for a population and how a study observe its* [@hase_bias_nodate]
 
+::: incremental
 -   Non-systematic errors: random deviations influence variance of estimates
--   Systematic errors (or: **bias**): depend on omitted variables
-
-👉 Bias can influence descriptive results but also attenuate/inflate inferential conclusions.
+-   Systematic errors (or: **bias**): non-random deviations that depend on omitted variables
+-   👉 Bias can influence descriptive results but also attenuate/inflate inferential conclusions
+:::
 
 ## What is bias?
+
+In CSS, the **bias-variance tradeoff** plays an important role: Often, we can *either* improve reduce variance or bias for models.
+
+![](images/bias-variance.jpg){fig-align="left"}
+
+::: {.figcaption}
+Bias–variance tradeoff  
+<span style="font-size:0.7em;">Source: Scott Fortmann-Roe (2012)</span>
+:::
+
+## What is bias?
+
+In CSS, the **bias-variance tradeoff** plays an important role: Often, we can *either* improve reduce variance or bias for models.
+
+-   Complex models often make better predictions (*less bias*), but with less inferential precision (*more variance*)
+-  Less complex models are less likely to overfit on the training data (*less variance*) but may make less accurate predictions (*more bias*)
+
+## 
+
+::: {style="font-size: 150%;text-align:center;"}
+*Please think about bias in and through CSS* 🤔
+:::
+
+:::: {.padlet-embed style="border:none;
+            box-sizing:border-box;
+            overflow:hidden;
+            position:relative;
+            width:100%;
+            background:transparent"}
+<p style="padding:0;margin:0">
+
+```{=html}
+<iframe src="https://padlet.com/embed/55a9zwlndsp01uv5" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;
+             height:600px;
+             display:block;
+             padding:0;
+             margin:0">
+```
+
+</iframe>
+
+</p>
+
+::: {style="display:flex;
+              align-items:center;
+              justify-content:end;
+              margin:0;
+              padding:2px 4px 2px 0;
+              background:transparent"}
+:::
+::::
+
+## Bias in CSS
+
+Bias is an underestimated problem in CSS [@hase_critical_2025; @kathirgamalingam_reflecting_2025]
+
+::: incremental
+
+- Distorts scientific findings **and** has real-world consequences, such as unfairness through socio-technical systems
+- Examples: AI in health resource allocation, hiring, or content moderation may induce gender bias [@lambrecht_algorithmic_2019; @stoll_classification_2025; @siemon_beyond_2025] and racism [@sap_risk_2019; @kathirgamalingam_measuring_2025].
+
+::: 
+
+::: {.columns}
+::: {.column width="50%"}
+![](images/bias-example.jpg){width=80%}
+
+<span style="margin-left:1em; font-size:0.7em;">
+*Source: The Guardian, 2024*
+</span>
+
+:::
+
+::: {.column width="50%"}
+![](images/bias-example2.jpg){width=80%}
+
+<span style="margin-left:1em; font-size:0.7em;">
+*Source: The Verge, 2024*
+</span>
+
+:::
+:::
+
+
+## Bias in CSS
+
+Bias is an underestimated problem in CSS [@hase_critical_2025; @kathirgamalingam_reflecting_2025]
+
+- Distorts scientific findings **and** has real-world consequences, such as unfairness through socio-technical systems
+-   We lack clear definitions, methods for quantifying bias, and solutions for adressing it
+
+![Special Issue in Communication Methods and Measures](images/cmm-si.jpg){fig-align="left"}
+
+## Bias in Data Donation Studies
 
 -   Errors in representation: *Who participates in data donation studies?*
 -   Errors in measurement: *Which latent concepts can we measure with data donation studies?*
@@ -78,15 +173,61 @@ For example ...
 
 ## 
 
-::: {style="font-size: 200%;text-align:center;"}
-*What do you think: Which participant characteristics may correlate with non-response or non-compliance?* 🤔
+::: {style="font-size: 150%;text-align:center;"}
+*Which aspects of the research design or participant characteristics may correlate with participants dropping out of data donation studies?* 🤔
 :::
 
-## Errors in representation
+:::: {.padlet-embed style="border:none;
+            box-sizing:border-box;
+            overflow:hidden;
+            position:relative;
+            width:100%;
+            background:transparent"}
+<p style="padding:0;margin:0">
+
+```{=html}
+<iframe src="https://padlet.com/embed/bdcrj316gfinhu1d" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;
+             height:600px;
+             display:block;
+             padding:0;
+             margin:0">
+```
+
+</iframe>
+
+</p>
+
+::: {style="display:flex;
+              align-items:center;
+              justify-content:end;
+              margin:0;
+              padding:2px 4px 2px 0;
+              background:transparent"}
+:::
+::::
+
+## Errors in representation {.normal-cite-slide}
 
 Example study by @hase_haim2024a:
 
 ![Source: Figure from Hase & Haim (2024)](images/bias-2.jpg){fig-alt="non-response bias in data donation studies" fig-align="left" width="300"}
+
+## Errors in representation {.normal-cite-slide}
+
+Literature review by @xiong_improving_2025 and own experiences
+
+**Research design**
+
+-   Sensitivity of the requested data
+-   Autonomy and control over the process
+-   Burden/Complexity of the study
+
+**Participant characteristics**
+
+-   Privacy concerns
+-   Digital savviness/skills
+-   Mixed findings on sociodemographics
+-   Mixed findings on prosocial motivation
 
 ## 
 
@@ -96,9 +237,13 @@ Example study by @hase_haim2024a:
 
 ## Errors in representation: Quantification
 
+Methods for bias detection often draw from validation strategies, though this may not be enough [@hase_critical_2025]
+
 -   Response rates across study stages
 -   Para data as quality indicators (e.g., speeding)
--   Non-response bias (e.g. traits of survey vs. donation participants)
+-   Non-response bias (e.g. characteristics of survey participants vs. donation participants)
+
+👉 "*a more pragmatic vision of bias detection: one that abandons the pursuit of perfect benchmarks in favor of comparative assessments of biases across CSS and non-CSS methods.*" [@hase_critical_2025, p. 5]
 
 ## Errors in representation: Solutions
 
@@ -106,17 +251,17 @@ Example study by @hase_haim2024a:
 
     -   Infrastructure: Integration in probability-based panels
 
-    -   Survey design strategies (e.g., incentives, study framing)
+    -   Learning from survey design strategies (e.g., incentives, study framing) [@hase_haim2024a]
 
     -   DDT design (e.g. UX-perspective)
 
 -   **Post hoc strategies**:
 
-    -   Statistical modeling [e.g., weighting, see @pak_correcting_2022]
+    -   Statistical modeling like weighting [@pak_correcting_2022]
 
 ## Errors in representation: Solutions
 
-For now: limited studies, limited success of existing solutions
+For now: limited studies, limited success
 
 ![Source: Figure from Hase & Haim (2024)](images/bias-3.jpg){fig-alt="non-response bias in data donation studies" fig-align="left" width="300"}
 
@@ -137,7 +282,7 @@ For example ...
 -   **Extraction error**: Did we extract all relevant files and variables?
 :::
 
-## Errors in measurements
+## Errors in measurements {.normal-cite-slide}
 
 Example study by @valkenburg_etal2024:
 
@@ -174,11 +319,22 @@ Example study by @valkenburg_etal2024:
 
     -   Error documentation [@gebru_etal2021]
 
-## Errors in representation: Solutions
+## Errors in representation: Solutions {.normal-cite-slide}
 
-Example study by @hase_etal2024:
+In a recent policy paper, around 20 scholars from different CSS labs argued [@hase_etal2024]:
 
 ![Source: Figure from Hase et al. 2024](images/bias-5.jpg){fig-alt="measurement bias in data donation studies" fig-align="left" width="300"}
+
+## A final remark on data donations for research
+
+Despite my lengthy rant about bias, this is **not** a statement against data donations. 
+
+*Just be sure to*:
+
+-   Carefully consider whether data donations make sense for your theoretical puzzle
+-   This relates to populations you can(not) study and latent phenomena you can(not) operationalize
+-   Often, the goal may not be highly representative panels - but targeting specific populations
+
 
 ## 
 
@@ -186,79 +342,77 @@ Example study by @hase_etal2024:
 **Questions?** 🤔
 :::
 
-## 2) What's next for data donation studies? (Frieder)
+## 2) What's next for data donation studies?
 
 ![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
 
-#Open Science
+## The road ahead I: Open Science
 
-## Step I.II: How do I operationalize key variables?
+**Preregistration**:
 
-This is how much "fun" testing measurements is:
+-   Many researcher degree of freedom
+-   Few existing studies (e.g., for power calculations)
+-   Almost no templates [@langener_template_2024]
+
+👉 Our recent preregistration includes 70 pages 😭 and we fully simulated results to understand potential decision trees
+
+![](images/open-science.jpg){fig-alt="Open Science Badges" fig-align="left" width=20%}
+
+## The road ahead I: Open Science
+
+**Preregistration**:
 
 ![Figure. Github issues - Testing the tool](images/testing.jpg){fig-alt="Github screenshot of testing" fig-align="left" width="200"}
 
-## Step I.II: How do I operationalize key variables?
 
-Key issues 🚨 [@hase_etal2024]
+## The road ahead I: Open Science
 
--   Missing documentation by platforms (e.g., file structure)
--   Sudden changes in DDPs
--   Differences across languages & devices
--   Insufficient in-tool classification (e.g., LLM integration)
+**Open Data**:
 
-## 
+-   Some useful primers [@munzert_publishing_2023]
+-   Still, strategies (e.g., aggregation, synthetic data, differential privacy) remain debated
+
+**Open Materials**:
+
+-   Big data of data donation: tools are almost exclusively open source! 
+
+![](images/open-science.jpg){fig-alt="Open Science Badges" fig-align="left" width=20%}
 
 
+## The road ahead II: Advancing the method
 
-## The road ahead I: Advancing the method
+::: incremental
 
--   Multimodal & cross-platform data 📸 [@wedel_etal2024]
+-   Multimodal & cross-platform data 📸 [@wedel_augmenting_2025]
+
+-   Less standardized data (e.g., chatbot or message logs)
 
 -   In-tool, local classification (e.g., local SML/LLMs?)
 
 -   Workflow/UX-perspective
 
+:::
+
 ![Source: Image by DariuszSankowski via Pixabay](images/future1.jpg){fig-alt="Image of multimedia data" fig-align="left" width="200"}
 
-::: {.notes}
+## The road ahead III: Data in a world of political turmoil
 
-- As some of you might have guessed, we can not only classify existing data but also aument our data with additional data, e.g., if you have URLs from YouTube videos.
-- There is much to be leared from other fields of scientific research, namely UX-design and (as so often these days) computer science
+![](images/meme_power.jpg){fig-alt="The GDPR and platform power - an uno joke" fig-align="left" width="200"}
 
-:::
+## The road ahead III: Data in a world of political turmoil
 
-## The road ahead II: Data as a political tool
-
+::: incremental
 -   Platforms do (willingly?) not provide data according to the GDPR/DSA [@hase_etal2024]
 
--   The EU has started to sanction platforms like X/TikTok
+-   The EU may sanction platforms like X/TikTok, but exact sanctions remain unclear [(see DSA Observatory)](https://dsa-observatory.eu/2025/11/26/waiting-for-the-dsas-big-enforcement-moment)
 
--   DSA may become the subject of larger geo-political debates with the USA [@seiling_etal2025]
+-   DSA subject to larger geo-political debates [@seiling_etal2025], where some politicians falsely claim "censorship" as the reason behind regulations
+
+-   Recent GDPR Omnibus amendment would make data donation unfeasible [(see our open letter to the European Commission)](https://dsa40collaboratory.eu/open-letter-omnibus)
+
+:::
 
 ![Source: Image by WilliamCho via Pixabay](images/future2.jpg){fig-alt="Image of the Lady of Justice" fig-align="left" width="200"}
-
-::: {.notes}
-
-- That's the good thing: It's law; but laws can be changed.
-- Nice to know here: Google and Facebook provided options for users to get information on their stored data already before GDPR, so it might also become a case of "good practice" in the future
--> But never trust companies...
-
-:::
-
-## The road ahead III: Can we improve & apply the method?
-
--   Can the method actually be applied for empirical research? [few examples, like @thorson_etal2021; @wojcieszak_etal2024]
-
--   Requires interdisciplinary perspectives (e.g., addressing bias, integration in probability-based panels)
-
-![Source: Image by Vladislav Babienko via Pixabay](images/future3.jpg){fig-alt="Image of crossroads" fig-align="left" width="200"}
-
-::: {.notes}
-
-- But that's also where you come in. You come from several different backgrounds and bring your own research interests; and many questions today are connected to what people do online - data donation might be your tool to investigate this.
-
-:::
 
 ## 
 
@@ -266,21 +420,15 @@ Key issues 🚨 [@hase_etal2024]
 **Questions?** 🤔
 :::
 
-## 3) Outro (Frieder)
+## 3) Outro
 
 ![Source: Image by Markus Winkler via Unsplash](images/methods.jpg){fig-alt="image of lupe" fig-align="left" width="300"}
 
-## We want your feedback! 🙃
+## I would ❤️ your feedback! 🙃
 
-👉 Please fill out this 3-minute feedback form: <https://forms.gle/KLMweywhW7odGyfk8>
+👉 Please fill out this 3-minute feedback form: <https://forms.gle/xaRy2Ldr9mU9jGc3A>{target="_blank" rel="noopener noreferrer"}
 
-![QR code for survey](images/qr.png){fig-alt="QR code for survey" fig-align="left" width="200"}
-
-::: {.notes}
-
-- We want this to improve the workshop constantly...
-
-:::
+![](images/qr-code.jpg){fig-alt="QR code for survey" fig-align="left" width="150"}
 
 ## 
 
@@ -288,4 +436,4 @@ Key issues 🚨 [@hase_etal2024]
 **Thanks for joining the workshop** 🙌
 :::
 
-## Quellen
+## References

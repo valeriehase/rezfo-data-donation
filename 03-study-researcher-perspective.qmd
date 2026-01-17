@@ -126,6 +126,8 @@ Session 3️⃣: Data Donation Studies (Researcher Perspective)
 
 3.  **Modelling**
 
+    📢 **Task 6**: Example Analysis of YouTube Watch history
+
 ![Image by Hope House Press via Unsplash](images/agenda.jpg){fig-align="left" width="10%"}
 
 ## 1) Research design & tool set-up
@@ -143,8 +145,6 @@ Session 3️⃣: Data Donation Studies (Researcher Perspective)
 ## Step I.I Which questions do I want to answer?
 
 ![](images/meme_method.jpg){fig-alt="process of data donation study" fig-align="left"}\
-
-## Study Elli
 
 ## Step I.I Which questions do I want to answer?
 
@@ -491,6 +491,7 @@ Often, we need to further preprocess collected data through...
 :::
 
 ![Figure. Donated data - example](images/sample-yt.jpg){fig-alt="Example of YouTube searches" fig-align="left"}
+
 ## Step II: Data cleaning & augmentation
 
 ![Figure. Data donation study - researcher perspective](images/ablauf-4e.jpg){fig-alt="process of data donation study" fig-align="left" width="300"}
@@ -523,6 +524,23 @@ For inferential modeling, consider [@clemm_von_hohenberg_analysis_2024]....
 -   Hierarchical structure (nested in participants, metrics, platforms) and within/between variance
 -   Advanced longitudinal approaches (e.g., with respect to sequences, feedback loops and causal inference)
 :::
+
+## 
+
+::: {style="font-size: 120%;text-align:center;"}
+**📢 Task 6: Example Analysis of YouTube Watch history**
+
+*Download the "Data for Task 6" from the website or use your own YouTube watch history. Also, load the respective R-code. Run the code (you just have to change the location and name of your data)*:
+:::
+
+(1) On which day do you mostly watch YouTube?
+
+(2) At what time do you mostly watch YouTube?
+
+![](images/analysis.jpg){fig-alt="Example of YouTube searches" fig-align="left"}
+
+The idea for this code and analysis was provided by [Michael Scharkow, University of Mainz](https://stats.ifp.uni-mainz.de/ba-ccs-track/befragung-daten.html).
+
 
 ## Summary: Researcher perspective 📚 {.normal-cite-slide}
 

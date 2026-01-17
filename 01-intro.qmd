@@ -348,10 +348,6 @@ Which methods do you know/have you used for collecting digital trace data*?* ðŸ¤
 
 ## Platform- and user-centric methods
 
-Placeholder first data Elli
-
-## Platform- and user-centric methods
-
 <div>
 
 -   **Restrictions of platform-centric methods**

@@ -39,7 +39,7 @@ This workshop introduces data donation studies. After a general introduction to 
 **Session 1️⃣: Welcome & Intro to Digital Traces**
 
 -   [Slides - HTML](01-intro.html)
--   Slides - PDF
+-   [Slides - PDF](pdf/01-intro.pdf)
 
 **Session 2️⃣: Data Donation Studies (Participant Perspective)**
 
@@ -52,10 +52,12 @@ This workshop introduces data donation studies. After a general introduction to 
 -   [Slides - HTML](03-study-researcher-perspective.html)
 -   Slides - PDF
 -   📢 [Data for Task 5](data/sample_youtube.csv)
+-   📢 [Data for Task 6](data/Data for Task 6.json)
+-   📢 [Code for Task 6](data/Task 6.R)
 
 **Session 4️⃣: Bias in Digital Trace Data & Outro**
 
--   [Slides - HTML](docs/04-bias-outro.html)
+-   [Slides - HTML](04-bias-outro.html)
 -   Slides - PDF
 
 ## Additional tutorials
