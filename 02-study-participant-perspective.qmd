@@ -178,10 +178,6 @@ Compared to **tracking** [@stollfus_computational_2023; @ohme_digital_2024]...
 
 ## Step I: Data request
 
-Example problems from Hase et al. (2025)
-
-## Step I: Data request
-
 Different degrees in standardization for data requests [@hase_etal2024]...
 
 -   Verification procedure

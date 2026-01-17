@@ -52,8 +52,8 @@ This workshop introduces data donation studies. After a general introduction to 
 -   [Slides - HTML](03-study-researcher-perspective.html)
 -   [Slides - PDF](pdf/03-study-researcher-perspective.pdf)
 -   📢 [Data for Task 5](data/sample_youtube.csv)
--   📢 [Data for Task 6](data/Data for Task 6.json)
--   📢 [Code for Task 6](data/Task 6.R)
+-   <a href="data/Data-for-Task6.json" download>📢 Data for Task 6</a>
+-   <a href="data/Task6.R" download>📢 Code for Task 6</a>
 
 **Session 4️⃣: Bias in Digital Trace Data & Outro**
 
